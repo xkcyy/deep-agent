@@ -1,0 +1,46 @@
+# USearch
+
+> [USearch](https://unum-cloud.github.io/usearch/) is a Smaller & Faster Single-File Vector Search Engine.
+
+> `USearch's` base functionality is identical to `FAISS`, and the interface should look
+> familiar if you have ever investigated Approximate Nearest Neighbors search.
+> `USearch` and `FAISS` both employ `HNSW` algorithm, but they differ significantly
+> in their design principles. `USearch` is compact and broadly compatible with FAISS without
+> sacrificing performance, with a primary focus on user-defined metrics and fewer dependencies.
+
+## Installation and Setup
+
+We need to install `usearch` python package.
+
+<CodeGroup>
+  ```bash pip theme={null}
+  pip install usearch
+  ```
+
+  ```bash uv theme={null}
+  uv add usearch
+  ```
+</CodeGroup>
+
+## Vector Store
+
+See a [usage example](/oss/python/integrations/vectorstores/usearch).
+
+```python  theme={null}
+from langchain_community.vectorstores import USearch
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/usearch.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

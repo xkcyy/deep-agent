@@ -1,0 +1,46 @@
+# Supabase (Postgres)
+
+> [Supabase](https://supabase.com/docs) is an open-source `Firebase` alternative.
+> `Supabase` is built on top of `PostgreSQL`, which offers strong `SQL`
+> querying capabilities and enables a simple interface with already-existing tools and frameworks.
+
+> [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) also known as `Postgres`,
+> is a free and open-source relational database management system (RDBMS)
+> emphasizing extensibility and `SQL` compliance.
+
+## Installation and Setup
+
+We need to install `supabase` python package.
+
+<CodeGroup>
+  ```bash pip theme={null}
+  pip install supabase
+  ```
+
+  ```bash uv theme={null}
+  uv add supabase
+  ```
+</CodeGroup>
+
+## Vector Store
+
+See a [usage example](/oss/python/integrations/vectorstores/supabase).
+
+```python  theme={null}
+from langchain_community.vectorstores import SupabaseVectorStore
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/supabase.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

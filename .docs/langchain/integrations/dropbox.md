@@ -1,0 +1,70 @@
+# Dropbox
+
+[Dropbox](https://en.wikipedia.org/wiki/Dropbox) is a file hosting service that brings everything-traditional files, cloud content, and web shortcuts together in one place.
+
+This notebook covers how to load documents from *Dropbox*. In addition to common files such as text and PDF files, it also supports *Dropbox Paper* files.
+
+## Prerequisites
+
+1. Create a Dropbox app.
+2. Give the app these scope permissions: `files.metadata.read` and `files.content.read`.
+3. Generate access token: [www.dropbox.com/developers/apps/create](https://www.dropbox.com/developers/apps/create).
+4. `pip install dropbox` (requires `pip install "unstructured[pdf]"` for PDF filetype).
+
+## Instructions
+
+\`DropboxLoader\`\` requires you to create a Dropbox App and generate an access token. This can be done from [www.dropbox.com/developers/apps/create](https://www.dropbox.com/developers/apps/create). You also need to have the Dropbox Python SDK installed (pip install dropbox).
+
+DropboxLoader can load data from a list of Dropbox file paths or a single Dropbox folder path. Both paths should be relative to the root directory of the Dropbox account linked to the access token.
+
+```python  theme={null}
+pip install dropbox
+```
+
+```python  theme={null}
+from langchain_community.document_loaders import DropboxLoader
+```
+
+```python  theme={null}
+# Generate access token: https://www.dropbox.com/developers/apps/create.
+dropbox_access_token = "<DROPBOX_ACCESS_TOKEN>"
+# Dropbox root folder
+dropbox_folder_path = ""
+```
+
+```python  theme={null}
+loader = DropboxLoader(
+    dropbox_access_token=dropbox_access_token,
+    dropbox_folder_path=dropbox_folder_path,
+    recursive=False,
+)
+```
+
+```python  theme={null}
+documents = loader.load()
+```
+
+```output  theme={null}
+File /JHSfLKn0.jpeg could not be decoded as text. Skipping.
+File /A REPORT ON WILES’ CAMBRIDGE LECTURES.pdf could not be decoded as text. Skipping.
+```
+
+```python  theme={null}
+for document in documents:
+    print(document)
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/document_loaders/dropbox.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

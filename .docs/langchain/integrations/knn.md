@@ -1,0 +1,54 @@
+# kNN
+
+> In statistics, the [k-nearest neighbours algorithm (k-NN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) is a non-parametric supervised learning method first developed by `Evelyn Fix` and `Joseph Hodges` in 1951, and later expanded by `Thomas Cover`. It is used for classification and regression.
+
+This notebook goes over how to use a retriever that under the hood uses a kNN.
+
+Largely based on the code of [Andrej Karpathy](https://github.com/karpathy/randomfun/blob/master/knn_vs_svm.html).
+
+```python  theme={null}
+from langchain_community.retrievers import KNNRetriever
+from langchain_openai import OpenAIEmbeddings
+```
+
+## Create New Retriever with Texts
+
+```python  theme={null}
+retriever = KNNRetriever.from_texts(
+    ["foo", "bar", "world", "hello", "foo bar"], OpenAIEmbeddings()
+)
+```
+
+## Use Retriever
+
+We can now use the retriever!
+
+```python  theme={null}
+result = retriever.invoke("foo")
+```
+
+```python  theme={null}
+result
+```
+
+```output  theme={null}
+[Document(page_content='foo', metadata={}),
+ Document(page_content='foo bar', metadata={}),
+ Document(page_content='hello', metadata={}),
+ Document(page_content='bar', metadata={})]
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/retrievers/knn.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

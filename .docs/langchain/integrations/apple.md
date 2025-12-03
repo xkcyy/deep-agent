@@ -1,0 +1,37 @@
+# Apple
+
+> [Apple Inc. (Wikipedia)](https://en.wikipedia.org/wiki/Apple_Inc.) is an American
+> multinational corporation and technology company.
+>
+> [iMessage (Wikipedia)](https://en.wikipedia.org/wiki/IMessage) is an instant
+> messaging service developed by Apple Inc. and launched in 2011.
+> `iMessage` functions exclusively on Apple platforms.
+
+## Installation and Setup
+
+See [setup instructions](/oss/python/integrations/chat_loaders/imessage).
+
+## Chat loader
+
+It loads chat sessions from the `iMessage` `chat.db` `SQLite` file.
+
+See a [usage example](/oss/python/integrations/chat_loaders/imessage).
+
+```python  theme={null}
+from langchain_community.chat_loaders.imessage import IMessageChatLoader
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/apple.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

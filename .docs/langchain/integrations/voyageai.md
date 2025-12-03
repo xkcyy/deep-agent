@@ -1,0 +1,52 @@
+# VoyageAI
+
+All functionality related to VoyageAI
+
+> [VoyageAI](https://www.voyageai.com/) Voyage AI builds embedding models, customized for your domain and company, for better retrieval quality.
+
+## Installation and Setup
+
+Install the integration package with
+
+<CodeGroup>
+  ```bash pip theme={null}
+  pip install langchain-voyageai
+  ```
+
+  ```bash uv theme={null}
+  uv add langchain-voyageai
+  ```
+</CodeGroup>
+
+Get a VoyageAI API key and set it as an environment variable (`VOYAGE_API_KEY`)
+
+## Text Embedding Model
+
+See a [usage example](/oss/python/integrations/text_embedding/voyageai)
+
+```python  theme={null}
+from langchain_voyageai import VoyageAIEmbeddings
+```
+
+## Reranking
+
+See a [usage example](/oss/python/integrations/document_transformers/voyageai-reranker)
+
+```python  theme={null}
+from langchain_voyageai import VoyageAIRerank
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/voyageai.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

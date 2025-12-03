@@ -1,0 +1,44 @@
+# CoNLL-U
+
+> [CoNLL-U](https://universaldependencies.org/format.html) is revised version of the CoNLL-X format. Annotations are encoded in plain text files (UTF-8, normalized to NFC, using only the LF character as line break, including an LF character at the end of file) with three types of lines:
+>
+> * Word lines containing the annotation of a word/token in 10 fields separated by single tab characters; see below.
+> * Blank lines marking sentence boundaries.
+> * Comment lines starting with hash (#).
+
+This is an example of how to load a file in [CoNLL-U](https://universaldependencies.org/format.html) format. The whole file is treated as one document. The example data (`conllu.conllu`) is based on one of the standard UD/CoNLL-U examples.
+
+```python  theme={null}
+from langchain_community.document_loaders import CoNLLULoader
+```
+
+```python  theme={null}
+loader = CoNLLULoader("example_data/conllu.conllu")
+```
+
+```python  theme={null}
+document = loader.load()
+```
+
+```python  theme={null}
+document
+```
+
+```output  theme={null}
+[Document(page_content='They buy and sell books.', metadata={'source': 'example_data/conllu.conllu'})]
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/document_loaders/conll-u.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

@@ -1,0 +1,60 @@
+# Google Cloud Storage File
+
+> [Google Cloud Storage](https://en.wikipedia.org/wiki/Google_Cloud_Storage) is a managed service for storing unstructured data.
+
+This covers how to load document objects from an `Google Cloud Storage (GCS) file object (blob)`.
+
+```python  theme={null}
+pip install -qU  langchain-google-community[gcs]
+```
+
+```python  theme={null}
+from langchain_google_community import GCSFileLoader
+```
+
+```python  theme={null}
+loader = GCSFileLoader(project_name="aist", bucket="testing-hwc", blob="fake.docx")
+```
+
+```python  theme={null}
+loader.load()
+```
+
+```output  theme={null}
+/Users/harrisonchase/workplace/langchain/.venv/lib/python3.10/site-packages/google/auth/_default.py:83: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. We recommend you rerun `gcloud auth application-default login` and make sure a quota project is added. Or you can use service accounts instead. For more information about service accounts, see https://cloud.google.com/docs/authentication/
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+```
+
+```output  theme={null}
+[Document(page_content='Lorem ipsum dolor sit amet.', lookup_str='', metadata={'source': '/var/folders/y6/8_bzdg295ld6s1_97_12m4lr0000gn/T/tmp3srlf8n8/fake.docx'}, lookup_index=0)]
+```
+
+If you want to use an alternative loader, you can provide a custom function, for example:
+
+```python  theme={null}
+from langchain_community.document_loaders import PyPDFLoader
+
+
+def load_pdf(file_path):
+    return PyPDFLoader(file_path)
+
+
+loader = GCSFileLoader(
+    project_name="aist", bucket="testing-hwc", blob="fake.pdf", loader_func=load_pdf
+)
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/document_loaders/google_cloud_storage_file.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

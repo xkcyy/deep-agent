@@ -1,0 +1,31 @@
+# Infinispan VS
+
+> [Infinispan](https://infinispan.org) Infinispan is an open-source in-memory data grid that provides
+> a key/value data store able to hold all types of data, from Java objects to plain text.
+> Since version 15 Infinispan supports vector search over caches.
+
+## Installation and Setup
+
+See [Get Started](https://infinispan.org/get-started/) to run an Infinispan server, you may want to disable authentication
+(not supported atm)
+
+## Vector Store
+
+```python  theme={null}
+from langchain_community.vectorstores import InfinispanVS
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/infinispanvs.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

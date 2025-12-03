@@ -1,0 +1,41 @@
+# Bagel
+
+> [Bagel](https://www.bagel.net/) (`Open Vector Database for AI`), is like GitHub for AI data.
+> It is a collaborative platform where users can create,
+> share, and manage vector datasets. It can support private projects for independent developers,
+> internal collaborations for enterprises, and public contributions for data DAOs.
+
+## Installation and Setup
+
+<CodeGroup>
+  ```bash pip theme={null}
+  pip install bagelML
+  ```
+
+  ```bash uv theme={null}
+  uv add bagelML
+  ```
+</CodeGroup>
+
+## VectorStore
+
+See a [usage example](/oss/python/integrations/vectorstores/bagel).
+
+```python  theme={null}
+from langchain_community.vectorstores import Bagel
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/bagel.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

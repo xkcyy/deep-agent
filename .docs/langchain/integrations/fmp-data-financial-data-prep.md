@@ -1,0 +1,35 @@
+# FMP Data (Financial Data Prep)
+
+> [FMP-Data](https://pypi.org/project/fmp-data/) is a python package for connecting to
+> Financial Data Prep API. It simplifies how you can access production quality data.
+
+## Installation and Setup
+
+Get an `FMP Data` API key by
+visiting [this page](https://site.financialmodelingprep.com/pricing-plans?couponCode=mehdi).
+and set it as an environment variable (`FMP_API_KEY`).
+
+Then, install [langchain-fmp-data](https://pypi.org/project/langchain-fmp-data/).
+
+## Tools
+
+See an [example](https://github.com/MehdiZare/langchain-fmp-data/tree/main/docs).
+
+```python  theme={null}
+from langchain_fmp_data import FMPDataTool, FMPDataToolkit
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/fmp-data.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

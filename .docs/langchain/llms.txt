@@ -1,0 +1,1289 @@
+# LangChain 文档索引
+
+| 标题 | 导航分组 | 远端路径 | 本地路径 |
+| --- | --- | --- | --- |
+| Co-marketing | Contribute | /oss/python/contributing/comarketing | `contribute/co-marketing.md` |
+| Contributing | Contribute | /oss/python/contributing/overview | `contribute/contributing.md` |
+| Contributing integrations | Contribute | /oss/python/contributing/integrations-langchain | `contribute/contributing-integrations.md` |
+| Contributing integrations | Contribute | /oss/python/contributing/integrations-langgraph | `contribute/contributing-integrations.md` |
+| Contributing to code | Contribute | /oss/python/contributing/code | `contribute/contributing-to-code.md` |
+| Contributing to documentation | Contribute | /oss/python/contributing/documentation | `contribute/contributing-to-documentation.md` |
+| Implement a LangChain integration | Contribute | /oss/python/contributing/implement-langchain | `contribute/implement-a-langchain-integration.md` |
+| Implement a LangGraph integration | Contribute | /oss/python/contributing/implement-langgraph | `contribute/implement-a-langgraph-integration.md` |
+| Publish an integration | Contribute | /oss/python/contributing/publish-langchain | `contribute/publish-an-integration.md` |
+| Publish an integration | Contribute | /oss/python/contributing/publish-langgraph | `contribute/publish-an-integration.md` |
+| Using standard tests | Contribute | /oss/python/contributing/standard-tests-langchain | `contribute/using-standard-tests.md` |
+| Using standard tests | Contribute | /oss/python/contributing/standard-tests-langgraph | `contribute/using-standard-tests.md` |
+| Agent harness capabilities | Deep Agents | /oss/python/deepagents/harness | `deep-agents/agent-harness-capabilities.md` |
+| Backends | Deep Agents | /oss/python/deepagents/backends | `deep-agents/backends.md` |
+| Customize Deep Agents | Deep Agents | /oss/python/deepagents/customization | `deep-agents/customize-deep-agents.md` |
+| Deep Agents CLI | Deep Agents | /oss/python/deepagents/cli | `deep-agents/deep-agents-cli.md` |
+| Deep Agents Middleware | Deep Agents | /oss/python/deepagents/middleware | `deep-agents/deep-agents-middleware.md` |
+| Deep Agents overview | Deep Agents | /oss/python/deepagents/overview | `deep-agents/deep-agents-overview.md` |
+| Human-in-the-loop | Deep Agents | /oss/python/deepagents/human-in-the-loop | `deep-agents/human-in-the-loop.md` |
+| Long-term memory | Deep Agents | /oss/python/deepagents/long-term-memory | `deep-agents/long-term-memory.md` |
+| Quickstart | Deep Agents | /oss/python/deepagents/quickstart | `deep-agents/quickstart.md` |
+| Subagents | Deep Agents | /oss/python/deepagents/subagents | `deep-agents/subagents.md` |
+| 01.AI | Integrations | /oss/python/integrations/providers/yi | `integrations/01-ai.md` |
+| 2Markdown | Integrations | /oss/python/integrations/providers/tomarkdown | `integrations/2markdown.md` |
+| 2Markdown | Integrations | /oss/python/integrations/document_loaders/tomarkdown | `integrations/2markdown.md` |
+| ADS4GPTs | Integrations | /oss/python/integrations/providers/ads4gpts | `integrations/ads4gpts.md` |
+| ADS4GPTs | Integrations | /oss/python/integrations/tools/ads4gpts | `integrations/ads4gpts.md` |
+| AI/ML API | Integrations | /oss/python/integrations/providers/aimlapi | `integrations/ai-ml-api.md` |
+| AI21 Labs | Integrations | /oss/python/integrations/providers/ai21 | `integrations/ai21-labs.md` |
+| AINetwork | Integrations | /oss/python/integrations/providers/ainetwork | `integrations/ainetwork.md` |
+| AINetwork Toolkit | Integrations | /oss/python/integrations/tools/ainetwork | `integrations/ainetwork-toolkit.md` |
+| AWS (Amazon) | Integrations | /oss/python/integrations/providers/aws | `integrations/aws-amazon.md` |
+| AWS Lambda | Integrations | /oss/python/integrations/tools/awslambda | `integrations/aws-lambda.md` |
+| AWS S3 Directory | Integrations | /oss/python/integrations/document_loaders/aws_s3_directory | `integrations/aws-s3-directory.md` |
+| AWS S3 File | Integrations | /oss/python/integrations/document_loaders/aws_s3_file | `integrations/aws-s3-file.md` |
+| AZLyrics | Integrations | /oss/python/integrations/providers/azlyrics | `integrations/azlyrics.md` |
+| AZLyrics | Integrations | /oss/python/integrations/document_loaders/azlyrics | `integrations/azlyrics.md` |
+| Abso | Integrations | /oss/python/integrations/providers/abso | `integrations/abso.md` |
+| Acreom | Integrations | /oss/python/integrations/providers/acreom | `integrations/acreom.md` |
+| Activeloop Deep Lake | Integrations | /oss/python/integrations/vectorstores/activeloop_deeplake | `integrations/activeloop-deep-lake.md` |
+| Activeloop Deep Lake | Integrations | /oss/python/integrations/providers/activeloop_deeplake | `integrations/activeloop-deep-lake.md` |
+| Activeloop Deep Memory | Integrations | /oss/python/integrations/retrievers/activeloop | `integrations/activeloop-deep-memory.md` |
+| AgentQL | Integrations | /oss/python/integrations/providers/agentql | `integrations/agentql.md` |
+| AgentQL | Integrations | /oss/python/integrations/tools/agentql | `integrations/agentql.md` |
+| AgentQLLoader | Integrations | /oss/python/integrations/document_loaders/agentql | `integrations/agentqlloader.md` |
+| Aim | Integrations | /oss/python/integrations/providers/aim_tracking | `integrations/aim.md` |
+| AimlapiEmbeddings | Integrations | /oss/python/integrations/text_embedding/aimlapi | `integrations/aimlapiembeddings.md` |
+| AimlapiLLM | Integrations | /oss/python/integrations/llms/aimlapi | `integrations/aimlapillm.md` |
+| Airbyte | Integrations | /oss/python/integrations/providers/airbyte | `integrations/airbyte.md` |
+| AirbyteLoader | Integrations | /oss/python/integrations/document_loaders/airbyte | `integrations/airbyteloader.md` |
+| Airtable | Integrations | /oss/python/integrations/providers/airtable | `integrations/airtable.md` |
+| Airtable | Integrations | /oss/python/integrations/document_loaders/airtable | `integrations/airtable.md` |
+| Alchemy | Integrations | /oss/python/integrations/providers/alchemy | `integrations/alchemy.md` |
+| Aleph Alpha | Integrations | /oss/python/integrations/text_embedding/aleph_alpha | `integrations/aleph-alpha.md` |
+| Aleph Alpha | Integrations | /oss/python/integrations/providers/aleph_alpha | `integrations/aleph-alpha.md` |
+| Aleph Alpha | Integrations | /oss/python/integrations/llms/aleph_alpha | `integrations/aleph-alpha.md` |
+| Alibaba Cloud | Integrations | /oss/python/integrations/providers/alibaba_cloud | `integrations/alibaba-cloud.md` |
+| Alibaba Cloud MaxCompute | Integrations | /oss/python/integrations/document_loaders/alibaba_cloud_maxcompute | `integrations/alibaba-cloud-maxcompute.md` |
+| Alibaba Cloud OpenSearch | Integrations | /oss/python/integrations/vectorstores/alibabacloud_opensearch | `integrations/alibaba-cloud-opensearch.md` |
+| Alibaba Cloud PAI EAS | Integrations | /oss/python/integrations/chat/alibaba_cloud_pai_eas | `integrations/alibaba-cloud-pai-eas.md` |
+| Alibaba Cloud PAI EAS | Integrations | /oss/python/integrations/llms/alibabacloud_pai_eas_endpoint | `integrations/alibaba-cloud-pai-eas.md` |
+| All integration providers | Integrations | /oss/python/integrations/providers/all_providers | `integrations/all-integration-providers.md` |
+| Alpha Vantage | Integrations | /oss/python/integrations/tools/alpha_vantage | `integrations/alpha-vantage.md` |
+| Amadeus Toolkit | Integrations | /oss/python/integrations/tools/amadeus | `integrations/amadeus-toolkit.md` |
+| Amazon API Gateway | Integrations | /oss/python/integrations/llms/amazon_api_gateway | `integrations/amazon-api-gateway.md` |
+| Amazon Document DB | Integrations | /oss/python/integrations/vectorstores/documentdb | `integrations/amazon-document-db.md` |
+| Amazon Kendra | Integrations | /oss/python/integrations/retrievers/amazon_kendra_retriever | `integrations/amazon-kendra.md` |
+| Amazon MemoryDB | Integrations | /oss/python/integrations/vectorstores/memorydb | `integrations/amazon-memorydb.md` |
+| Amazon Neptune with Cypher | Integrations | /oss/python/integrations/graphs/amazon_neptune_open_cypher | `integrations/amazon-neptune-with-cypher.md` |
+| Amazon Textract | Integrations | /oss/python/integrations/document_loaders/amazon_textract | `integrations/amazon-textract.md` |
+| AnalyticDB | Integrations | /oss/python/integrations/vectorstores/analyticdb | `integrations/analyticdb.md` |
+| AnalyticDB | Integrations | /oss/python/integrations/providers/analyticdb | `integrations/analyticdb.md` |
+| Anchor Browser | Integrations | /oss/python/integrations/providers/anchor_browser | `integrations/anchor-browser.md` |
+| Anchor Browser | Integrations | /oss/python/integrations/tools/anchor_browser | `integrations/anchor-browser.md` |
+| Annoy | Integrations | /oss/python/integrations/vectorstores/annoy | `integrations/annoy.md` |
+| Annoy | Integrations | /oss/python/integrations/providers/annoy | `integrations/annoy.md` |
+| Anthropic (Claude) | Integrations | /oss/python/integrations/providers/anthropic | `integrations/anthropic-claude.md` |
+| AnthropicLLM | Integrations | /oss/python/integrations/llms/anthropic | `integrations/anthropicllm.md` |
+| Anyscale | Integrations | /oss/python/integrations/text_embedding/anyscale | `integrations/anyscale.md` |
+| Anyscale | Integrations | /oss/python/integrations/providers/anyscale | `integrations/anyscale.md` |
+| Anyscale | Integrations | /oss/python/integrations/llms/anyscale | `integrations/anyscale.md` |
+| Apache AGE | Integrations | /oss/python/integrations/graphs/apache_age | `integrations/apache-age.md` |
+| Apache Cassandra | Integrations | /oss/python/integrations/vectorstores/cassandra | `integrations/apache-cassandra.md` |
+| Apache Doris | Integrations | /oss/python/integrations/vectorstores/apache_doris | `integrations/apache-doris.md` |
+| Apache Doris | Integrations | /oss/python/integrations/providers/apache_doris | `integrations/apache-doris.md` |
+| Apache Software Foundation | Integrations | /oss/python/integrations/providers/apache | `integrations/apache-software-foundation.md` |
+| ApertureDB | Integrations | /oss/python/integrations/vectorstores/aperturedb | `integrations/aperturedb.md` |
+| Aphrodite Engine | Integrations | /oss/python/integrations/llms/aphrodite | `integrations/aphrodite-engine.md` |
+| Apify | Integrations | /oss/python/integrations/providers/apify | `integrations/apify.md` |
+| Apify Actor | Integrations | /oss/python/integrations/tools/apify_actors | `integrations/apify-actor.md` |
+| Apify Dataset | Integrations | /oss/python/integrations/document_loaders/apify_dataset | `integrations/apify-dataset.md` |
+| Apple | Integrations | /oss/python/integrations/providers/apple | `integrations/apple.md` |
+| ArXiv | Integrations | /oss/python/integrations/tools/arxiv | `integrations/arxiv.md` |
+| ArangoDB | Integrations | /oss/python/integrations/providers/arangodb | `integrations/arangodb.md` |
+| ArangoDB | Integrations | /oss/python/integrations/graphs/arangodb | `integrations/arangodb.md` |
+| ArcGIS | Integrations | /oss/python/integrations/providers/arcgis | `integrations/arcgis.md` |
+| Arcee | Integrations | /oss/python/integrations/retrievers/arcee | `integrations/arcee.md` |
+| Arcee | Integrations | /oss/python/integrations/providers/arcee | `integrations/arcee.md` |
+| Arcee | Integrations | /oss/python/integrations/llms/arcee | `integrations/arcee.md` |
+| Argilla | Integrations | /oss/python/integrations/providers/argilla | `integrations/argilla.md` |
+| Argilla | Integrations | /oss/python/integrations/callbacks/argilla | `integrations/argilla.md` |
+| Arize | Integrations | /oss/python/integrations/providers/arize | `integrations/arize.md` |
+| Arthur | Integrations | /oss/python/integrations/providers/arthur_tracking | `integrations/arthur.md` |
+| Arxiv | Integrations | /oss/python/integrations/retrievers/arxiv | `integrations/arxiv.md` |
+| Arxiv | Integrations | /oss/python/integrations/providers/arxiv | `integrations/arxiv.md` |
+| ArxivLoader | Integrations | /oss/python/integrations/document_loaders/arxiv | `integrations/arxivloader.md` |
+| Ascend | Integrations | /oss/python/integrations/text_embedding/ascend | `integrations/ascend.md` |
+| Ascend | Integrations | /oss/python/integrations/providers/ascend | `integrations/ascend.md` |
+| AskNews | Integrations | /oss/python/integrations/retrievers/asknews | `integrations/asknews.md` |
+| AskNews | Integrations | /oss/python/integrations/providers/asknews | `integrations/asknews.md` |
+| AskNews | Integrations | /oss/python/integrations/tools/asknews | `integrations/asknews.md` |
+| AssemblyAI | Integrations | /oss/python/integrations/providers/assemblyai | `integrations/assemblyai.md` |
+| AssemblyAI Audio Transcripts | Integrations | /oss/python/integrations/document_loaders/assemblyai | `integrations/assemblyai-audio-transcripts.md` |
+| Astra DB | Integrations | /oss/python/integrations/providers/astradb | `integrations/astra-db.md` |
+| Astra DB Vector Store | Integrations | /oss/python/integrations/vectorstores/astradb | `integrations/astra-db-vector-store.md` |
+| AstraDB | Integrations | /oss/python/integrations/document_loaders/astradb | `integrations/astradb.md` |
+| AstraDBByteStore | Integrations | /oss/python/integrations/stores/astradb | `integrations/astradbbytestore.md` |
+| Async Chromium | Integrations | /oss/python/integrations/document_loaders/async_chromium | `integrations/async-chromium.md` |
+| AsyncHtml | Integrations | /oss/python/integrations/document_loaders/async_html | `integrations/asynchtml.md` |
+| Athena | Integrations | /oss/python/integrations/document_loaders/athena | `integrations/athena.md` |
+| Atlas | Integrations | /oss/python/integrations/vectorstores/atlas | `integrations/atlas.md` |
+| Atlas | Integrations | /oss/python/integrations/providers/atlas | `integrations/atlas.md` |
+| AwaDB | Integrations | /oss/python/integrations/vectorstores/awadb | `integrations/awadb.md` |
+| AwaDB | Integrations | /oss/python/integrations/text_embedding/awadb | `integrations/awadb.md` |
+| AwaDB | Integrations | /oss/python/integrations/providers/awadb | `integrations/awadb.md` |
+| Azure AI | Integrations | /oss/python/integrations/providers/azure_ai | `integrations/azure-ai.md` |
+| Azure AI Data | Integrations | /oss/python/integrations/document_loaders/azure_ai_data | `integrations/azure-ai-data.md` |
+| Azure AI Document Intelligence | Integrations | /oss/python/integrations/document_loaders/azure_document_intelligence | `integrations/azure-ai-document-intelligence.md` |
+| Azure AI Search | Integrations | /oss/python/integrations/vectorstores/azuresearch | `integrations/azure-ai-search.md` |
+| Azure AI Search | Integrations | /oss/python/integrations/retrievers/azure_ai_search | `integrations/azure-ai-search.md` |
+| Azure AI Services Toolkit | Integrations | /oss/python/integrations/tools/azure_ai_services | `integrations/azure-ai-services-toolkit.md` |
+| Azure Blob Storage Loader | Integrations | /oss/python/integrations/document_loaders/azure_blob_storage | `integrations/azure-blob-storage-loader.md` |
+| Azure Cognitive Services Toolkit | Integrations | /oss/python/integrations/tools/azure_cognitive_services | `integrations/azure-cognitive-services-toolkit.md` |
+| Azure Container Apps dynamic sessions | Integrations | /oss/python/integrations/tools/azure_dynamic_sessions | `integrations/azure-container-apps-dynamic-sessions.md` |
+| Azure Cosmos DB Mongo vCore | Integrations | /oss/python/integrations/vectorstores/azure_cosmos_db_mongo_vcore | `integrations/azure-cosmos-db-mongo-vcore.md` |
+| Azure Cosmos DB No SQL | Integrations | /oss/python/integrations/vectorstores/azure_cosmos_db_no_sql | `integrations/azure-cosmos-db-no-sql.md` |
+| Azure Cosmos DB for Apache Gremlin | Integrations | /oss/python/integrations/graphs/azure_cosmosdb_gremlin | `integrations/azure-cosmos-db-for-apache-gremlin.md` |
+| Azure Database for PostgreSQL - Flexible Server | Integrations | /oss/python/integrations/vectorstores/azure_db_for_postgresql | `integrations/azure-database-for-postgresql-flexible-server.md` |
+| Azure ML | Integrations | /oss/python/integrations/llms/azure_ml | `integrations/azure-ml.md` |
+| Azure OpenAI | Integrations | /oss/python/integrations/llms/azure_openai | `integrations/azure-openai.md` |
+| AzureAIChatCompletionsModel | Integrations | /oss/python/integrations/chat/azure_ai | `integrations/azureaichatcompletionsmodel.md` |
+| AzureChatOpenAI | Integrations | /oss/python/integrations/chat/azure_chat_openai | `integrations/azurechatopenai.md` |
+| AzureMLChatOnlineEndpoint | Integrations | /oss/python/integrations/chat/azureml_chat_endpoint | `integrations/azuremlchatonlineendpoint.md` |
+| AzureOpenAIEmbeddings | Integrations | /oss/python/integrations/text_embedding/azure_openai | `integrations/azureopenaiembeddings.md` |
+| BAAI | Integrations | /oss/python/integrations/providers/baai | `integrations/baai.md` |
+| BGE on Hugging Face | Integrations | /oss/python/integrations/text_embedding/bge_huggingface | `integrations/bge-on-hugging-face.md` |
+| BM25 | Integrations | /oss/python/integrations/retrievers/bm25 | `integrations/bm25.md` |
+| BSHTMLLoader | Integrations | /oss/python/integrations/document_loaders/bshtml | `integrations/bshtmlloader.md` |
+| Bagel | Integrations | /oss/python/integrations/vectorstores/bagel | `integrations/bagel.md` |
+| Bagel | Integrations | /oss/python/integrations/providers/bagel | `integrations/bagel.md` |
+| BagelDB | Integrations | /oss/python/integrations/vectorstores/bageldb | `integrations/bageldb.md` |
+| BagelDB | Integrations | /oss/python/integrations/providers/bageldb | `integrations/bageldb.md` |
+| Baichuan | Integrations | /oss/python/integrations/providers/baichuan | `integrations/baichuan.md` |
+| Baichuan LLM | Integrations | /oss/python/integrations/llms/baichuan | `integrations/baichuan-llm.md` |
+| Baichuan Text Embeddings | Integrations | /oss/python/integrations/text_embedding/baichuan | `integrations/baichuan-text-embeddings.md` |
+| Baidu | Integrations | /oss/python/integrations/providers/baidu | `integrations/baidu.md` |
+| Baidu Cloud ElasticSearch VectorSearch | Integrations | /oss/python/integrations/vectorstores/baiducloud_vector_search | `integrations/baidu-cloud-elasticsearch-vectorsearch.md` |
+| Baidu Qianfan | Integrations | /oss/python/integrations/text_embedding/baidu_qianfan_endpoint | `integrations/baidu-qianfan.md` |
+| Baidu Qianfan | Integrations | /oss/python/integrations/llms/baidu_qianfan_endpoint | `integrations/baidu-qianfan.md` |
+| Baidu VectorDB | Integrations | /oss/python/integrations/vectorstores/baiduvectordb | `integrations/baidu-vectordb.md` |
+| Banana | Integrations | /oss/python/integrations/llms/banana | `integrations/banana.md` |
+| BananaDev | Integrations | /oss/python/integrations/providers/bananadev | `integrations/bananadev.md` |
+| Baseten | Integrations | /oss/python/integrations/providers/baseten | `integrations/baseten.md` |
+| BasetenEmbeddings | Integrations | /oss/python/integrations/text_embedding/baseten | `integrations/basetenembeddings.md` |
+| Beam | Integrations | /oss/python/integrations/providers/beam | `integrations/beam.md` |
+| Beam | Integrations | /oss/python/integrations/llms/beam | `integrations/beam.md` |
+| Bearly Code Interpreter | Integrations | /oss/python/integrations/tools/bearly | `integrations/bearly-code-interpreter.md` |
+| Beautiful Soup | Integrations | /oss/python/integrations/providers/beautiful_soup | `integrations/beautiful-soup.md` |
+| Beautiful Soup | Integrations | /oss/python/integrations/document_transformers/beautiful_soup | `integrations/beautiful-soup.md` |
+| Bedrock | Integrations | /oss/python/integrations/llms/bedrock | `integrations/bedrock.md` |
+| Bedrock (Knowledge Bases) | Integrations | /oss/python/integrations/retrievers/bedrock | `integrations/bedrock-knowledge-bases.md` |
+| BedrockEmbeddings | Integrations | /oss/python/integrations/text_embedding/bedrock | `integrations/bedrockembeddings.md` |
+| BibTeX | Integrations | /oss/python/integrations/providers/bibtex | `integrations/bibtex.md` |
+| BibTeX | Integrations | /oss/python/integrations/document_loaders/bibtex | `integrations/bibtex.md` |
+| BiliBili | Integrations | /oss/python/integrations/providers/bilibili | `integrations/bilibili.md` |
+| BiliBili | Integrations | /oss/python/integrations/document_loaders/bilibili | `integrations/bilibili.md` |
+| Bing Search | Integrations | /oss/python/integrations/tools/bing_search | `integrations/bing-search.md` |
+| Bittensor | Integrations | /oss/python/integrations/providers/bittensor | `integrations/bittensor.md` |
+| Bittensor | Integrations | /oss/python/integrations/llms/bittensor | `integrations/bittensor.md` |
+| Blackboard | Integrations | /oss/python/integrations/providers/blackboard | `integrations/blackboard.md` |
+| Blackboard | Integrations | /oss/python/integrations/document_loaders/blackboard | `integrations/blackboard.md` |
+| Blockchain | Integrations | /oss/python/integrations/document_loaders/blockchain | `integrations/blockchain.md` |
+| Bodo DataFrames | Integrations | /oss/python/integrations/providers/bodo | `integrations/bodo-dataframes.md` |
+| Bodo DataFrames | Integrations | /oss/python/integrations/tools/bodo | `integrations/bodo-dataframes.md` |
+| Bookend AI | Integrations | /oss/python/integrations/text_embedding/bookend | `integrations/bookend-ai.md` |
+| Box | Integrations | /oss/python/integrations/providers/box | `integrations/box.md` |
+| BoxLoader and BoxBlobLoader | Integrations | /oss/python/integrations/document_loaders/box | `integrations/boxloader-and-boxblobloader.md` |
+| BoxRetriever | Integrations | /oss/python/integrations/retrievers/box | `integrations/boxretriever.md` |
+| Brave Search | Integrations | /oss/python/integrations/providers/brave_search | `integrations/brave-search.md` |
+| Brave Search | Integrations | /oss/python/integrations/tools/brave_search | `integrations/brave-search.md` |
+| Brave Search | Integrations | /oss/python/integrations/document_loaders/brave_search | `integrations/brave-search.md` |
+| Breebs | Integrations | /oss/python/integrations/retrievers/breebs | `integrations/breebs.md` |
+| Breebs (Open Knowledge) | Integrations | /oss/python/integrations/providers/breebs | `integrations/breebs-open-knowledge.md` |
+| Bright Data | Integrations | /oss/python/integrations/providers/brightdata | `integrations/bright-data.md` |
+| BrightDataSERP | Integrations | /oss/python/integrations/tools/brightdata_serp | `integrations/brightdataserp.md` |
+| BrightDataUnlocker | Integrations | /oss/python/integrations/tools/brightdata_unlocker | `integrations/brightdataunlocker.md` |
+| BrightDataWebScraperAPI | Integrations | /oss/python/integrations/tools/brightdata-webscraperapi | `integrations/brightdatawebscraperapi.md` |
+| Browserbase | Integrations | /oss/python/integrations/providers/browserbase | `integrations/browserbase.md` |
+| Browserbase | Integrations | /oss/python/integrations/document_loaders/browserbase | `integrations/browserbase.md` |
+| Browserless | Integrations | /oss/python/integrations/providers/browserless | `integrations/browserless.md` |
+| Browserless | Integrations | /oss/python/integrations/document_loaders/browserless | `integrations/browserless.md` |
+| ByteDance | Integrations | /oss/python/integrations/providers/byte_dance | `integrations/bytedance.md` |
+| C Transformers | Integrations | /oss/python/integrations/providers/ctransformers | `integrations/c-transformers.md` |
+| C Transformers | Integrations | /oss/python/integrations/llms/ctransformers | `integrations/c-transformers.md` |
+| CDP Agentkit Toolkit | Integrations | /oss/python/integrations/tools/cdp_agentkit | `integrations/cdp-agentkit-toolkit.md` |
+| CSV | Integrations | /oss/python/integrations/document_loaders/csv | `integrations/csv.md` |
+| CTranslate2 | Integrations | /oss/python/integrations/providers/ctranslate2 | `integrations/ctranslate2.md` |
+| CTranslate2 | Integrations | /oss/python/integrations/llms/ctranslate2 | `integrations/ctranslate2.md` |
+| Cassandra | Integrations | /oss/python/integrations/providers/cassandra | `integrations/cassandra.md` |
+| Cassandra | Integrations | /oss/python/integrations/document_loaders/cassandra | `integrations/cassandra.md` |
+| Cassandra Database Toolkit | Integrations | /oss/python/integrations/tools/cassandra_database | `integrations/cassandra-database-toolkit.md` |
+| CassandraByteStore | Integrations | /oss/python/integrations/stores/cassandra | `integrations/cassandrabytestore.md` |
+| Cerebras | Integrations | /oss/python/integrations/providers/cerebras | `integrations/cerebras.md` |
+| CerebriumAI | Integrations | /oss/python/integrations/providers/cerebriumai | `integrations/cerebriumai.md` |
+| CerebriumAI | Integrations | /oss/python/integrations/llms/cerebriumai | `integrations/cerebriumai.md` |
+| Chaindesk | Integrations | /oss/python/integrations/retrievers/chaindesk | `integrations/chaindesk.md` |
+| Chaindesk | Integrations | /oss/python/integrations/providers/chaindesk | `integrations/chaindesk.md` |
+| Chat models | Integrations | /oss/python/integrations/chat | `integrations/chat-models.md` |
+| Chat models | Integrations | /oss/python/integrations/chat/index | `integrations/chat-models.md` |
+| Chat with Baichuan-192K | Integrations | /oss/python/integrations/chat/baichuan | `integrations/chat-with-baichuan-192k.md` |
+| Chat with Coze Bot | Integrations | /oss/python/integrations/chat/coze | `integrations/chat-with-coze-bot.md` |
+| ChatAI21 | Integrations | /oss/python/integrations/chat/ai21 | `integrations/chatai21.md` |
+| ChatAbso | Integrations | /oss/python/integrations/chat/abso | `integrations/chatabso.md` |
+| ChatAimlapi | Integrations | /oss/python/integrations/chat/aimlapi | `integrations/chataimlapi.md` |
+| ChatAmazonNova | Integrations | /oss/python/integrations/chat/amazon_nova | `integrations/chatamazonnova.md` |
+| ChatAnthropic | Integrations | /oss/python/integrations/chat/anthropic | `integrations/chatanthropic.md` |
+| ChatBaseten | Integrations | /oss/python/integrations/chat/baseten | `integrations/chatbaseten.md` |
+| ChatBedrock | Integrations | /oss/python/integrations/chat/bedrock | `integrations/chatbedrock.md` |
+| ChatCerebras | Integrations | /oss/python/integrations/chat/cerebras | `integrations/chatcerebras.md` |
+| ChatCloudflareWorkersAI | Integrations | /oss/python/integrations/chat/cloudflare_workersai | `integrations/chatcloudflareworkersai.md` |
+| ChatClovaX | Integrations | /oss/python/integrations/chat/naver | `integrations/chatclovax.md` |
+| ChatContextual | Integrations | /oss/python/integrations/chat/contextual | `integrations/chatcontextual.md` |
+| ChatDatabricks | Integrations | /oss/python/integrations/chat/databricks | `integrations/chatdatabricks.md` |
+| ChatDeepSeek | Integrations | /oss/python/integrations/chat/deepseek | `integrations/chatdeepseek.md` |
+| ChatEverlyAI | Integrations | /oss/python/integrations/chat/everlyai | `integrations/chateverlyai.md` |
+| ChatFeatherlessAi | Integrations | /oss/python/integrations/chat/featherless_ai | `integrations/chatfeatherlessai.md` |
+| ChatFireworks | Integrations | /oss/python/integrations/chat/fireworks | `integrations/chatfireworks.md` |
+| ChatFriendli | Integrations | /oss/python/integrations/chat/friendli | `integrations/chatfriendli.md` |
+| ChatGPT Data | Integrations | /oss/python/integrations/document_loaders/chatgpt_loader | `integrations/chatgpt-data.md` |
+| ChatGPT Plugins | Integrations | /oss/python/integrations/tools/chatgpt_plugins | `integrations/chatgpt-plugins.md` |
+| ChatGPT plugin | Integrations | /oss/python/integrations/retrievers/chatgpt-plugin | `integrations/chatgpt-plugin.md` |
+| ChatGoogleGenerativeAI | Integrations | /oss/python/integrations/chat/google_generative_ai | `integrations/chatgooglegenerativeai.md` |
+| ChatGradient | Integrations | /oss/python/integrations/chat/gradientai | `integrations/chatgradient.md` |
+| ChatGreenNode | Integrations | /oss/python/integrations/chat/greennode | `integrations/chatgreennode.md` |
+| ChatGroq | Integrations | /oss/python/integrations/chat/groq | `integrations/chatgroq.md` |
+| ChatHuggingFace | Integrations | /oss/python/integrations/chat/huggingface | `integrations/chathuggingface.md` |
+| ChatKonko | Integrations | /oss/python/integrations/chat/konko | `integrations/chatkonko.md` |
+| ChatLiteLLM and ChatLiteLLMRouter | Integrations | /oss/python/integrations/chat/litellm | `integrations/chatlitellm-and-chatlitellmrouter.md` |
+| ChatLlamaAPI | Integrations | /oss/python/integrations/chat/llama_api | `integrations/chatllamaapi.md` |
+| ChatMistralAI | Integrations | /oss/python/integrations/chat/mistralai | `integrations/chatmistralai.md` |
+| ChatNVIDIA | Integrations | /oss/python/integrations/chat/nvidia_ai_endpoints | `integrations/chatnvidia.md` |
+| ChatNetmind | Integrations | /oss/python/integrations/chat/netmind | `integrations/chatnetmind.md` |
+| ChatOCIGenAI | Integrations | /oss/python/integrations/chat/oci_generative_ai | `integrations/chatocigenai.md` |
+| ChatOCIModelDeployment | Integrations | /oss/python/integrations/chat/oci_data_science | `integrations/chatocimodeldeployment.md` |
+| ChatOctoAI | Integrations | /oss/python/integrations/chat/octoai | `integrations/chatoctoai.md` |
+| ChatOllama | Integrations | /oss/python/integrations/chat/ollama | `integrations/chatollama.md` |
+| ChatOpenAI | Integrations | /oss/python/integrations/chat/openai | `integrations/chatopenai.md` |
+| ChatOutlines | Integrations | /oss/python/integrations/chat/outlines | `integrations/chatoutlines.md` |
+| ChatParallelWeb | Integrations | /oss/python/integrations/chat/parallel | `integrations/chatparallelweb.md` |
+| ChatPerplexity | Integrations | /oss/python/integrations/chat/perplexity | `integrations/chatperplexity.md` |
+| ChatPipeshift | Integrations | /oss/python/integrations/chat/pipeshift | `integrations/chatpipeshift.md` |
+| ChatPredictionGuard | Integrations | /oss/python/integrations/chat/predictionguard | `integrations/chatpredictionguard.md` |
+| ChatPremAI | Integrations | /oss/python/integrations/chat/premai | `integrations/chatpremai.md` |
+| ChatQwQ | Integrations | /oss/python/integrations/chat/qwq | `integrations/chatqwq.md` |
+| ChatQwen | Integrations | /oss/python/integrations/chat/qwen | `integrations/chatqwen.md` |
+| ChatReka | Integrations | /oss/python/integrations/chat/reka | `integrations/chatreka.md` |
+| ChatSambaNova | Integrations | /oss/python/integrations/chat/sambanova | `integrations/chatsambanova.md` |
+| ChatSeekrFlow | Integrations | /oss/python/integrations/chat/seekrflow | `integrations/chatseekrflow.md` |
+| ChatTogether | Integrations | /oss/python/integrations/chat/together | `integrations/chattogether.md` |
+| ChatTongyi | Integrations | /oss/python/integrations/chat/tongyi | `integrations/chattongyi.md` |
+| ChatUpstage | Integrations | /oss/python/integrations/chat/upstage | `integrations/chatupstage.md` |
+| ChatVertexAI | Integrations | /oss/python/integrations/chat/google_vertex_ai | `integrations/chatvertexai.md` |
+| ChatWatsonx | Integrations | /oss/python/integrations/chat/ibm_watsonx | `integrations/chatwatsonx.md` |
+| ChatWriter | Integrations | /oss/python/integrations/chat/writer | `integrations/chatwriter.md` |
+| ChatXAI | Integrations | /oss/python/integrations/chat/xai | `integrations/chatxai.md` |
+| ChatXinference | Integrations | /oss/python/integrations/chat/xinference | `integrations/chatxinference.md` |
+| ChatYI | Integrations | /oss/python/integrations/chat/yi | `integrations/chatyi.md` |
+| ChatYandexGPT | Integrations | /oss/python/integrations/chat/yandex | `integrations/chatyandexgpt.md` |
+| China Mobile ECloud ElasticSearch VectorSearch | Integrations | /oss/python/integrations/vectorstores/ecloud_vector_search | `integrations/china-mobile-ecloud-elasticsearch-vectorsearch.md` |
+| Chroma | Integrations | /oss/python/integrations/providers/chroma | `integrations/chroma.md` |
+| Chroma | Integrations | /oss/python/integrations/vectorstores/chroma | `integrations/chroma.md` |
+| Clarifai | Integrations | /oss/python/integrations/vectorstores/clarifai | `integrations/clarifai.md` |
+| Clarifai | Integrations | /oss/python/integrations/text_embedding/clarifai | `integrations/clarifai.md` |
+| Clarifai | Integrations | /oss/python/integrations/providers/clarifai | `integrations/clarifai.md` |
+| Clarifai | Integrations | /oss/python/integrations/llms/clarifai | `integrations/clarifai.md` |
+| ClearML | Integrations | /oss/python/integrations/providers/clearml_tracking | `integrations/clearml.md` |
+| ClickHouse | Integrations | /oss/python/integrations/vectorstores/clickhouse | `integrations/clickhouse.md` |
+| ClickHouse | Integrations | /oss/python/integrations/providers/clickhouse | `integrations/clickhouse.md` |
+| ClickUp | Integrations | /oss/python/integrations/providers/clickup | `integrations/clickup.md` |
+| ClickUp Toolkit | Integrations | /oss/python/integrations/tools/clickup | `integrations/clickup-toolkit.md` |
+| Cloudflare | Integrations | /oss/python/integrations/providers/cloudflare | `integrations/cloudflare.md` |
+| Cloudflare Workers AI | Integrations | /oss/python/integrations/text_embedding/cloudflare_workersai | `integrations/cloudflare-workers-ai.md` |
+| Cloudflare Workers AI | Integrations | /oss/python/integrations/llms/cloudflare_workersai | `integrations/cloudflare-workers-ai.md` |
+| Clova | Integrations | /oss/python/integrations/providers/clova | `integrations/clova.md` |
+| Clova Embeddings | Integrations | /oss/python/integrations/text_embedding/clova | `integrations/clova-embeddings.md` |
+| CnosDB | Integrations | /oss/python/integrations/providers/cnosdb | `integrations/cnosdb.md` |
+| CoNLL-U | Integrations | /oss/python/integrations/document_loaders/conll-u | `integrations/conll-u.md` |
+| Cognee | Integrations | /oss/python/integrations/retrievers/cognee | `integrations/cognee.md` |
+| Cognee | Integrations | /oss/python/integrations/providers/cognee | `integrations/cognee.md` |
+| CogniSwitch | Integrations | /oss/python/integrations/providers/cogniswitch | `integrations/cogniswitch.md` |
+| Cogniswitch Toolkit | Integrations | /oss/python/integrations/tools/cogniswitch | `integrations/cogniswitch-toolkit.md` |
+| Cohere | Integrations | /oss/python/integrations/providers/cohere | `integrations/cohere.md` |
+| Cohere | Integrations | /oss/python/integrations/llms/cohere | `integrations/cohere.md` |
+| Cohere | Integrations | /oss/python/integrations/chat/cohere | `integrations/cohere.md` |
+| Cohere RAG | Integrations | /oss/python/integrations/retrievers/cohere | `integrations/cohere-rag.md` |
+| Cohere reranker | Integrations | /oss/python/integrations/retrievers/cohere-reranker | `integrations/cohere-reranker.md` |
+| CohereEmbeddings | Integrations | /oss/python/integrations/text_embedding/cohere | `integrations/cohereembeddings.md` |
+| College Confidential | Integrations | /oss/python/integrations/providers/college_confidential | `integrations/college-confidential.md` |
+| College Confidential | Integrations | /oss/python/integrations/document_loaders/college_confidential | `integrations/college-confidential.md` |
+| Comet | Integrations | /oss/python/integrations/providers/comet_tracking | `integrations/comet.md` |
+| Comet Tracing | Integrations | /oss/python/integrations/callbacks/comet_tracing | `integrations/comet-tracing.md` |
+| Compass DeFi Toolkit | Integrations | /oss/python/integrations/tools/compass | `integrations/compass-defi-toolkit.md` |
+| Composio | Integrations | /oss/python/integrations/tools/composio | `integrations/composio.md` |
+| Concurrent Loader | Integrations | /oss/python/integrations/document_loaders/concurrent | `integrations/concurrent-loader.md` |
+| Confident | Integrations | /oss/python/integrations/callbacks/confident | `integrations/confident.md` |
+| Confident AI | Integrations | /oss/python/integrations/providers/confident | `integrations/confident-ai.md` |
+| Confluence | Integrations | /oss/python/integrations/providers/confluence | `integrations/confluence.md` |
+| Confluence | Integrations | /oss/python/integrations/document_loaders/confluence | `integrations/confluence.md` |
+| Connery | Integrations | /oss/python/integrations/providers/connery | `integrations/connery.md` |
+| Connery Toolkit and Tools | Integrations | /oss/python/integrations/tools/connery | `integrations/connery-toolkit-and-tools.md` |
+| Context | Integrations | /oss/python/integrations/providers/context | `integrations/context.md` |
+| Context | Integrations | /oss/python/integrations/callbacks/context | `integrations/context.md` |
+| Contextual AI | Integrations | /oss/python/integrations/providers/contextual | `integrations/contextual-ai.md` |
+| Contextual AI Reranker | Integrations | /oss/python/integrations/retrievers/contextual | `integrations/contextual-ai-reranker.md` |
+| Copy Paste | Integrations | /oss/python/integrations/document_loaders/copypaste | `integrations/copy-paste.md` |
+| Couchbase | Integrations | /oss/python/integrations/vectorstores/couchbase | `integrations/couchbase.md` |
+| Couchbase | Integrations | /oss/python/integrations/providers/couchbase | `integrations/couchbase.md` |
+| Couchbase | Integrations | /oss/python/integrations/document_loaders/couchbase | `integrations/couchbase.md` |
+| Coze | Integrations | /oss/python/integrations/providers/coze | `integrations/coze.md` |
+| CrateDB | Integrations | /oss/python/integrations/providers/cratedb | `integrations/cratedb.md` |
+| Cube | Integrations | /oss/python/integrations/providers/cube | `integrations/cube.md` |
+| Cube Semantic Layer | Integrations | /oss/python/integrations/document_loaders/cube_semantic | `integrations/cube-semantic-layer.md` |
+| Dall-E Image Generator | Integrations | /oss/python/integrations/tools/dalle_image_generator | `integrations/dall-e-image-generator.md` |
+| Dappier | Integrations | /oss/python/integrations/retrievers/dappier | `integrations/dappier.md` |
+| Dappier | Integrations | /oss/python/integrations/providers/dappier | `integrations/dappier.md` |
+| Dappier | Integrations | /oss/python/integrations/tools/dappier | `integrations/dappier.md` |
+| Dappier AI | Integrations | /oss/python/integrations/chat/dappier | `integrations/dappier-ai.md` |
+| DashScope | Integrations | /oss/python/integrations/text_embedding/dashscope | `integrations/dashscope.md` |
+| DashVector | Integrations | /oss/python/integrations/vectorstores/dashvector | `integrations/dashvector.md` |
+| DashVector | Integrations | /oss/python/integrations/providers/dashvector | `integrations/dashvector.md` |
+| DataForSEO | Integrations | /oss/python/integrations/providers/dataforseo | `integrations/dataforseo.md` |
+| DataForSEO | Integrations | /oss/python/integrations/tools/dataforseo | `integrations/dataforseo.md` |
+| Databricks | Integrations | /oss/python/integrations/providers/databricks | `integrations/databricks.md` |
+| Databricks | Integrations | /oss/python/integrations/llms/databricks | `integrations/databricks.md` |
+| Databricks Unity Catalog (UC) | Integrations | /oss/python/integrations/tools/databricks | `integrations/databricks-unity-catalog-uc.md` |
+| Databricks Vector Search | Integrations | /oss/python/integrations/vectorstores/databricks_vector_search | `integrations/databricks-vector-search.md` |
+| DatabricksEmbeddings | Integrations | /oss/python/integrations/text_embedding/databricks | `integrations/databricksembeddings.md` |
+| Datadog Logs | Integrations | /oss/python/integrations/providers/datadog_logs | `integrations/datadog-logs.md` |
+| Datadog Logs | Integrations | /oss/python/integrations/document_loaders/datadog_logs | `integrations/datadog-logs.md` |
+| Datadog Tracing | Integrations | /oss/python/integrations/providers/datadog | `integrations/datadog-tracing.md` |
+| Dataherald | Integrations | /oss/python/integrations/providers/dataherald | `integrations/dataherald.md` |
+| Dataherald | Integrations | /oss/python/integrations/tools/dataherald | `integrations/dataherald.md` |
+| Daytona | Integrations | /oss/python/integrations/providers/daytona | `integrations/daytona.md` |
+| DaytonaDataAnalysisTool | Integrations | /oss/python/integrations/tools/daytona_data_analysis | `integrations/daytonadataanalysistool.md` |
+| Dedoc | Integrations | /oss/python/integrations/providers/dedoc | `integrations/dedoc.md` |
+| Dedoc | Integrations | /oss/python/integrations/document_loaders/dedoc | `integrations/dedoc.md` |
+| DeepInfra | Integrations | /oss/python/integrations/chat/deepinfra | `integrations/deepinfra.md` |
+| DeepInfra | Integrations | /oss/python/integrations/text_embedding/deepinfra | `integrations/deepinfra.md` |
+| DeepInfra | Integrations | /oss/python/integrations/providers/deepinfra | `integrations/deepinfra.md` |
+| DeepInfra | Integrations | /oss/python/integrations/llms/deepinfra | `integrations/deepinfra.md` |
+| DeepSeek | Integrations | /oss/python/integrations/providers/deepseek | `integrations/deepseek.md` |
+| DeepSparse | Integrations | /oss/python/integrations/providers/deepsparse | `integrations/deepsparse.md` |
+| Deeplake | Integrations | /oss/python/integrations/providers/deeplake | `integrations/deeplake.md` |
+| Dell | Integrations | /oss/python/integrations/providers/dell | `integrations/dell.md` |
+| Dell PowerScale Document Loader | Integrations | /oss/python/integrations/document_loaders/powerscale | `integrations/dell-powerscale-document-loader.md` |
+| Diffbot | Integrations | /oss/python/integrations/graphs/diffbot | `integrations/diffbot.md` |
+| Diffbot | Integrations | /oss/python/integrations/providers/diffbot | `integrations/diffbot.md` |
+| Diffbot | Integrations | /oss/python/integrations/document_loaders/diffbot | `integrations/diffbot.md` |
+| DigitalOcean Gradient AI Platform | Integrations | /oss/python/integrations/providers/gradientai | `integrations/digitalocean-gradient-ai-platform.md` |
+| DingoDB | Integrations | /oss/python/integrations/vectorstores/dingo | `integrations/dingodb.md` |
+| DingoDB | Integrations | /oss/python/integrations/providers/dingo | `integrations/dingodb.md` |
+| Discord | Integrations | /oss/python/integrations/providers/discord-shikenso | `integrations/discord.md` |
+| Discord | Integrations | /oss/python/integrations/tools/discord | `integrations/discord.md` |
+| Discord | Integrations | /oss/python/integrations/document_loaders/discord | `integrations/discord.md` |
+| Discord (community loader) | Integrations | /oss/python/integrations/providers/discord | `integrations/discord-community-loader.md` |
+| DocArray | Integrations | /oss/python/integrations/retrievers/docarray_retriever | `integrations/docarray.md` |
+| DocArray | Integrations | /oss/python/integrations/providers/docarray | `integrations/docarray.md` |
+| DocArray HnswSearch | Integrations | /oss/python/integrations/vectorstores/docarray_hnsw | `integrations/docarray-hnswsearch.md` |
+| DocArray InMemorySearch | Integrations | /oss/python/integrations/vectorstores/docarray_in_memory | `integrations/docarray-inmemorysearch.md` |
+| Docling | Integrations | /oss/python/integrations/providers/docling | `integrations/docling.md` |
+| Docling | Integrations | /oss/python/integrations/document_loaders/docling | `integrations/docling.md` |
+| Doctran | Integrations | /oss/python/integrations/providers/doctran | `integrations/doctran.md` |
+| Doctran extract properties | Integrations | /oss/python/integrations/document_transformers/doctran_extract_properties | `integrations/doctran-extract-properties.md` |
+| Doctran interrogate documents | Integrations | /oss/python/integrations/document_transformers/doctran_interrogate_document | `integrations/doctran-interrogate-documents.md` |
+| Doctran language translation | Integrations | /oss/python/integrations/document_transformers/doctran_translate_document | `integrations/doctran-language-translation.md` |
+| Docugami | Integrations | /oss/python/integrations/providers/docugami | `integrations/docugami.md` |
+| Docugami | Integrations | /oss/python/integrations/document_loaders/docugami | `integrations/docugami.md` |
+| Docusaurus | Integrations | /oss/python/integrations/providers/docusaurus | `integrations/docusaurus.md` |
+| Docusaurus | Integrations | /oss/python/integrations/document_loaders/docusaurus | `integrations/docusaurus.md` |
+| Dria | Integrations | /oss/python/integrations/retrievers/dria_index | `integrations/dria.md` |
+| Dria | Integrations | /oss/python/integrations/providers/dria | `integrations/dria.md` |
+| Dropbox | Integrations | /oss/python/integrations/providers/dropbox | `integrations/dropbox.md` |
+| Dropbox | Integrations | /oss/python/integrations/document_loaders/dropbox | `integrations/dropbox.md` |
+| DuckDB | Integrations | /oss/python/integrations/vectorstores/duckdb | `integrations/duckdb.md` |
+| DuckDB | Integrations | /oss/python/integrations/providers/duckdb | `integrations/duckdb.md` |
+| DuckDuckGo Search | Integrations | /oss/python/integrations/providers/duckduckgo_search | `integrations/duckduckgo-search.md` |
+| DuckDuckGo Search | Integrations | /oss/python/integrations/tools/ddg | `integrations/duckduckgo-search.md` |
+| E2B | Integrations | /oss/python/integrations/providers/e2b | `integrations/e2b.md` |
+| E2B Data Analysis | Integrations | /oss/python/integrations/tools/e2b_data_analysis | `integrations/e2b-data-analysis.md` |
+| EPub | Integrations | /oss/python/integrations/document_loaders/epub | `integrations/epub.md` |
+| ERNIE | Integrations | /oss/python/integrations/text_embedding/ernie | `integrations/ernie.md` |
+| Eden AI | Integrations | /oss/python/integrations/chat/edenai | `integrations/eden-ai.md` |
+| Eden AI | Integrations | /oss/python/integrations/providers/edenai | `integrations/eden-ai.md` |
+| Eden AI | Integrations | /oss/python/integrations/tools/edenai_tools | `integrations/eden-ai.md` |
+| Eden AI | Integrations | /oss/python/integrations/llms/edenai | `integrations/eden-ai.md` |
+| EdenAI | Integrations | /oss/python/integrations/text_embedding/edenai | `integrations/edenai.md` |
+| ElasticSearch BM25 | Integrations | /oss/python/integrations/retrievers/elastic_search_bm25 | `integrations/elasticsearch-bm25.md` |
+| Elasticsearch | Integrations | /oss/python/integrations/providers/elasticsearch | `integrations/elasticsearch.md` |
+| Elasticsearch | Integrations | /oss/python/integrations/retrievers/elasticsearch_retriever | `integrations/elasticsearch.md` |
+| Elasticsearch | Integrations | /oss/python/integrations/vectorstores/elasticsearch | `integrations/elasticsearch.md` |
+| Elasticsearch | Integrations | /oss/python/integrations/text_embedding/elasticsearch | `integrations/elasticsearch.md` |
+| ElasticsearchEmbeddingsCache | Integrations | /oss/python/integrations/stores/elasticsearch | `integrations/elasticsearchembeddingscache.md` |
+| ElevenLabs | Integrations | /oss/python/integrations/providers/elevenlabs | `integrations/elevenlabs.md` |
+| ElevenLabs Text2Speech | Integrations | /oss/python/integrations/tools/eleven_labs_tts | `integrations/elevenlabs-text2speech.md` |
+| Email | Integrations | /oss/python/integrations/document_loaders/email | `integrations/email.md` |
+| Embaas | Integrations | /oss/python/integrations/text_embedding/embaas | `integrations/embaas.md` |
+| Embedchain | Integrations | /oss/python/integrations/retrievers/embedchain | `integrations/embedchain.md` |
+| Embedchain | Integrations | /oss/python/integrations/providers/embedchain | `integrations/embedchain.md` |
+| Embedding Documents using Optimized and Quantized Embedders | Integrations | /oss/python/integrations/text_embedding/optimum_intel | `integrations/embedding-documents-using-optimized-and-quantized-embedders.md` |
+| Embedding models | Integrations | /oss/python/integrations/text_embedding | `integrations/embedding-models.md` |
+| Epsilla | Integrations | /oss/python/integrations/vectorstores/epsilla | `integrations/epsilla.md` |
+| Epsilla | Integrations | /oss/python/integrations/providers/epsilla | `integrations/epsilla.md` |
+| ErnieBotChat | Integrations | /oss/python/integrations/chat/ernie | `integrations/erniebotchat.md` |
+| Etherscan | Integrations | /oss/python/integrations/providers/etherscan | `integrations/etherscan.md` |
+| Etherscan | Integrations | /oss/python/integrations/document_loaders/etherscan | `integrations/etherscan.md` |
+| EverNote | Integrations | /oss/python/integrations/providers/evernote | `integrations/evernote.md` |
+| EverNote | Integrations | /oss/python/integrations/document_loaders/evernote | `integrations/evernote.md` |
+| Everly AI | Integrations | /oss/python/integrations/providers/everlyai | `integrations/everly-ai.md` |
+| Exa | Integrations | /oss/python/integrations/providers/exa_search | `integrations/exa.md` |
+| Exa Search | Integrations | /oss/python/integrations/tools/exa_search | `integrations/exa-search.md` |
+| FMP Data | Integrations | /oss/python/integrations/tools/fmp-data | `integrations/fmp-data.md` |
+| FMP Data (Financial Data Prep) | Integrations | /oss/python/integrations/providers/fmp-data | `integrations/fmp-data-financial-data-prep.md` |
+| Facebook - Meta | Integrations | /oss/python/integrations/providers/facebook | `integrations/facebook-meta.md` |
+| Facebook Chat | Integrations | /oss/python/integrations/document_loaders/facebook_chat | `integrations/facebook-chat.md` |
+| Facebook Messenger | Integrations | /oss/python/integrations/chat_loaders/facebook | `integrations/facebook-messenger.md` |
+| Faiss | Integrations | /oss/python/integrations/vectorstores/faiss | `integrations/faiss.md` |
+| Faiss (Async) | Integrations | /oss/python/integrations/vectorstores/faiss_async | `integrations/faiss-async.md` |
+| FakeEmbeddings | Integrations | /oss/python/integrations/text_embedding/fake | `integrations/fakeembeddings.md` |
+| FalkorDB | Integrations | /oss/python/integrations/providers/falkordb | `integrations/falkordb.md` |
+| FalkorDBVectorStore | Integrations | /oss/python/integrations/vectorstores/falkordbvector | `integrations/falkordbvectorstore.md` |
+| FastEmbed by Qdrant | Integrations | /oss/python/integrations/text_embedding/fastembed | `integrations/fastembed-by-qdrant.md` |
+| Fauna | Integrations | /oss/python/integrations/providers/fauna | `integrations/fauna.md` |
+| Fauna | Integrations | /oss/python/integrations/document_loaders/fauna | `integrations/fauna.md` |
+| Featherless AI | Integrations | /oss/python/integrations/providers/featherless-ai | `integrations/featherless-ai.md` |
+| Fiddler | Integrations | /oss/python/integrations/providers/fiddler | `integrations/fiddler.md` |
+| Fiddler | Integrations | /oss/python/integrations/callbacks/fiddler | `integrations/fiddler.md` |
+| Figma | Integrations | /oss/python/integrations/providers/figma | `integrations/figma.md` |
+| Figma | Integrations | /oss/python/integrations/document_loaders/figma | `integrations/figma.md` |
+| File System | Integrations | /oss/python/integrations/tools/filesystem | `integrations/file-system.md` |
+| FinancialDatasets Toolkit | Integrations | /oss/python/integrations/tools/financial_datasets | `integrations/financialdatasets-toolkit.md` |
+| FireCrawl | Integrations | /oss/python/integrations/providers/firecrawl | `integrations/firecrawl.md` |
+| FireCrawl | Integrations | /oss/python/integrations/document_loaders/firecrawl | `integrations/firecrawl.md` |
+| Fireworks | Integrations | /oss/python/integrations/llms/fireworks | `integrations/fireworks.md` |
+| Fireworks AI | Integrations | /oss/python/integrations/providers/fireworks | `integrations/fireworks-ai.md` |
+| FireworksEmbeddings | Integrations | /oss/python/integrations/text_embedding/fireworks | `integrations/fireworksembeddings.md` |
+| FlashRank reranker | Integrations | /oss/python/integrations/retrievers/flashrank-reranker | `integrations/flashrank-reranker.md` |
+| Fleet AI Context | Integrations | /oss/python/integrations/retrievers/fleet_context | `integrations/fleet-ai-context.md` |
+| Flyte | Integrations | /oss/python/integrations/providers/flyte | `integrations/flyte.md` |
+| Forefront AI | Integrations | /oss/python/integrations/providers/forefrontai | `integrations/forefront-ai.md` |
+| ForefrontAI | Integrations | /oss/python/integrations/llms/forefrontai | `integrations/forefrontai.md` |
+| Friendli | Integrations | /oss/python/integrations/llms/friendli | `integrations/friendli.md` |
+| Friendli AI | Integrations | /oss/python/integrations/providers/friendli | `integrations/friendli-ai.md` |
+| GOAT | Integrations | /oss/python/integrations/providers/goat | `integrations/goat.md` |
+| GOAT | Integrations | /oss/python/integrations/tools/goat | `integrations/goat.md` |
+| GPT4All | Integrations | /oss/python/integrations/text_embedding/gpt4all | `integrations/gpt4all.md` |
+| GPT4All | Integrations | /oss/python/integrations/providers/gpt4all | `integrations/gpt4all.md` |
+| GPT4All | Integrations | /oss/python/integrations/llms/gpt4all | `integrations/gpt4all.md` |
+| GPTRouter | Integrations | /oss/python/integrations/chat/gpt_router | `integrations/gptrouter.md` |
+| Galaxia | Integrations | /oss/python/integrations/retrievers/galaxia-retriever | `integrations/galaxia.md` |
+| Gel | Integrations | /oss/python/integrations/vectorstores/gel | `integrations/gel.md` |
+| Gel | Integrations | /oss/python/integrations/providers/gel | `integrations/gel.md` |
+| Geopandas | Integrations | /oss/python/integrations/providers/geopandas | `integrations/geopandas.md` |
+| Geopandas | Integrations | /oss/python/integrations/document_loaders/geopandas | `integrations/geopandas.md` |
+| Git | Integrations | /oss/python/integrations/providers/git | `integrations/git.md` |
+| Git | Integrations | /oss/python/integrations/document_loaders/git | `integrations/git.md` |
+| GitBook | Integrations | /oss/python/integrations/providers/gitbook | `integrations/gitbook.md` |
+| GitBook | Integrations | /oss/python/integrations/document_loaders/gitbook | `integrations/gitbook.md` |
+| GitHub | Integrations | /oss/python/integrations/providers/github | `integrations/github.md` |
+| GitHub | Integrations | /oss/python/integrations/document_loaders/github | `integrations/github.md` |
+| GitLab | Integrations | /oss/python/integrations/providers/gitlab | `integrations/gitlab.md` |
+| Github Toolkit | Integrations | /oss/python/integrations/tools/github | `integrations/github-toolkit.md` |
+| Gitlab Toolkit | Integrations | /oss/python/integrations/tools/gitlab | `integrations/gitlab-toolkit.md` |
+| Glue Catalog | Integrations | /oss/python/integrations/document_loaders/glue_catalog | `integrations/glue-catalog.md` |
+| Gmail | Integrations | /oss/python/integrations/chat_loaders/google_gmail | `integrations/gmail.md` |
+| Gmail Toolkit | Integrations | /oss/python/integrations/tools/google_gmail | `integrations/gmail-toolkit.md` |
+| Golden | Integrations | /oss/python/integrations/providers/golden | `integrations/golden.md` |
+| Golden Query | Integrations | /oss/python/integrations/tools/golden_query | `integrations/golden-query.md` |
+| Google | Integrations | /oss/python/integrations/providers/google | `integrations/google.md` |
+| Google AI | Integrations | /oss/python/integrations/llms/google_ai | `integrations/google-ai.md` |
+| Google AlloyDB for PostgreSQL | Integrations | /oss/python/integrations/vectorstores/google_alloydb | `integrations/google-alloydb-for-postgresql.md` |
+| Google AlloyDB for PostgreSQL | Integrations | /oss/python/integrations/document_loaders/google_alloydb | `integrations/google-alloydb-for-postgresql.md` |
+| Google BigQuery | Integrations | /oss/python/integrations/document_loaders/google_bigquery | `integrations/google-bigquery.md` |
+| Google BigQuery Vector Search | Integrations | /oss/python/integrations/vectorstores/google_bigquery_vector_search | `integrations/google-bigquery-vector-search.md` |
+| Google Bigtable | Integrations | /oss/python/integrations/document_loaders/google_bigtable | `integrations/google-bigtable.md` |
+| Google Books | Integrations | /oss/python/integrations/tools/google_books | `integrations/google-books.md` |
+| Google Calendar Toolkit | Integrations | /oss/python/integrations/tools/google_calendar | `integrations/google-calendar-toolkit.md` |
+| Google Cloud Document AI | Integrations | /oss/python/integrations/document_transformers/google_docai | `integrations/google-cloud-document-ai.md` |
+| Google Cloud SQL for MySQL | Integrations | /oss/python/integrations/vectorstores/google_cloud_sql_mysql | `integrations/google-cloud-sql-for-mysql.md` |
+| Google Cloud SQL for MySQL | Integrations | /oss/python/integrations/document_loaders/google_cloud_sql_mysql | `integrations/google-cloud-sql-for-mysql.md` |
+| Google Cloud SQL for PostgreSQL | Integrations | /oss/python/integrations/vectorstores/google_cloud_sql_pg | `integrations/google-cloud-sql-for-postgresql.md` |
+| Google Cloud SQL for PostgreSQL | Integrations | /oss/python/integrations/document_loaders/google_cloud_sql_pg | `integrations/google-cloud-sql-for-postgresql.md` |
+| Google Cloud SQL for SQL server | Integrations | /oss/python/integrations/document_loaders/google_cloud_sql_mssql | `integrations/google-cloud-sql-for-sql-server.md` |
+| Google Cloud Storage Directory | Integrations | /oss/python/integrations/document_loaders/google_cloud_storage_directory | `integrations/google-cloud-storage-directory.md` |
+| Google Cloud Storage File | Integrations | /oss/python/integrations/document_loaders/google_cloud_storage_file | `integrations/google-cloud-storage-file.md` |
+| Google Cloud Text-to-Speech | Integrations | /oss/python/integrations/tools/google_cloud_texttospeech | `integrations/google-cloud-text-to-speech.md` |
+| Google Cloud Vertex AI | Integrations | /oss/python/integrations/llms/google_vertex_ai | `integrations/google-cloud-vertex-ai.md` |
+| Google Drive | Integrations | /oss/python/integrations/retrievers/google_drive | `integrations/google-drive.md` |
+| Google Drive | Integrations | /oss/python/integrations/tools/google_drive | `integrations/google-drive.md` |
+| Google Drive | Integrations | /oss/python/integrations/document_loaders/google_drive | `integrations/google-drive.md` |
+| Google El Carro for Oracle Workloads | Integrations | /oss/python/integrations/document_loaders/google_el_carro | `integrations/google-el-carro-for-oracle-workloads.md` |
+| Google Finance | Integrations | /oss/python/integrations/tools/google_finance | `integrations/google-finance.md` |
+| Google Firestore | Integrations | /oss/python/integrations/vectorstores/google_firestore | `integrations/google-firestore.md` |
+| Google Firestore (Native Mode) | Integrations | /oss/python/integrations/document_loaders/google_firestore | `integrations/google-firestore-native-mode.md` |
+| Google Firestore in Datastore Mode | Integrations | /oss/python/integrations/document_loaders/google_datastore | `integrations/google-firestore-in-datastore-mode.md` |
+| Google Generative AI Embeddings (AI Studio & Gemini API) | Integrations | /oss/python/integrations/text_embedding/google_generative_ai | `integrations/google-generative-ai-embeddings-ai-studio-gemini-api.md` |
+| Google Imagen | Integrations | /oss/python/integrations/tools/google_imagen | `integrations/google-imagen.md` |
+| Google Jobs | Integrations | /oss/python/integrations/tools/google_jobs | `integrations/google-jobs.md` |
+| Google Lens | Integrations | /oss/python/integrations/tools/google_lens | `integrations/google-lens.md` |
+| Google Memorystore for Redis | Integrations | /oss/python/integrations/vectorstores/google_memorystore_redis | `integrations/google-memorystore-for-redis.md` |
+| Google Memorystore for Redis | Integrations | /oss/python/integrations/document_loaders/google_memorystore_redis | `integrations/google-memorystore-for-redis.md` |
+| Google Places | Integrations | /oss/python/integrations/tools/google_places | `integrations/google-places.md` |
+| Google Scholar | Integrations | /oss/python/integrations/tools/google_scholar | `integrations/google-scholar.md` |
+| Google Search | Integrations | /oss/python/integrations/tools/google_search | `integrations/google-search.md` |
+| Google Serper | Integrations | /oss/python/integrations/tools/google_serper | `integrations/google-serper.md` |
+| Google Spanner | Integrations | /oss/python/integrations/vectorstores/google_spanner | `integrations/google-spanner.md` |
+| Google Spanner | Integrations | /oss/python/integrations/document_loaders/google_spanner | `integrations/google-spanner.md` |
+| Google Speech-to-Text Audio Transcripts | Integrations | /oss/python/integrations/document_loaders/google_speech_to_text | `integrations/google-speech-to-text-audio-transcripts.md` |
+| Google Translate | Integrations | /oss/python/integrations/document_transformers/google_translate | `integrations/google-translate.md` |
+| Google Trends | Integrations | /oss/python/integrations/tools/google_trends | `integrations/google-trends.md` |
+| Google Vertex AI Embeddings | Integrations | /oss/python/integrations/text_embedding/google_vertex_ai | `integrations/google-vertex-ai-embeddings.md` |
+| Google Vertex AI Feature Store | Integrations | /oss/python/integrations/vectorstores/google_vertex_ai_feature_store | `integrations/google-vertex-ai-feature-store.md` |
+| Google Vertex AI Search | Integrations | /oss/python/integrations/retrievers/google_vertex_ai_search | `integrations/google-vertex-ai-search.md` |
+| Google Vertex AI Vector Search | Integrations | /oss/python/integrations/vectorstores/google_vertex_ai_vector_search | `integrations/google-vertex-ai-vector-search.md` |
+| GooseAI | Integrations | /oss/python/integrations/providers/gooseai | `integrations/gooseai.md` |
+| GooseAI | Integrations | /oss/python/integrations/llms/gooseai | `integrations/gooseai.md` |
+| Gradient | Integrations | /oss/python/integrations/text_embedding/gradient | `integrations/gradient.md` |
+| Gradient | Integrations | /oss/python/integrations/providers/gradient | `integrations/gradient.md` |
+| Gradient | Integrations | /oss/python/integrations/llms/gradient | `integrations/gradient.md` |
+| Gradio | Integrations | /oss/python/integrations/tools/gradio_tools | `integrations/gradio.md` |
+| Graph RAG | Integrations | /oss/python/integrations/providers/graph_rag | `integrations/graph-rag.md` |
+| Graph RAG | Integrations | /oss/python/integrations/retrievers/graph_rag | `integrations/graph-rag.md` |
+| GraphQL | Integrations | /oss/python/integrations/tools/graphql | `integrations/graphql.md` |
+| Graphsignal | Integrations | /oss/python/integrations/providers/graphsignal | `integrations/graphsignal.md` |
+| GreenNode | Integrations | /oss/python/integrations/retrievers/greennode_reranker | `integrations/greennode.md` |
+| GreenNode | Integrations | /oss/python/integrations/providers/greennode | `integrations/greennode.md` |
+| GreenNodeEmbeddings | Integrations | /oss/python/integrations/text_embedding/greennode | `integrations/greennodeembeddings.md` |
+| Grobid | Integrations | /oss/python/integrations/providers/grobid | `integrations/grobid.md` |
+| Grobid | Integrations | /oss/python/integrations/document_loaders/grobid | `integrations/grobid.md` |
+| Groq | Integrations | /oss/python/integrations/providers/groq | `integrations/groq.md` |
+| Gutenberg | Integrations | /oss/python/integrations/providers/gutenberg | `integrations/gutenberg.md` |
+| Gutenberg | Integrations | /oss/python/integrations/document_loaders/gutenberg | `integrations/gutenberg.md` |
+| HTML to text | Integrations | /oss/python/integrations/providers/html2text | `integrations/html-to-text.md` |
+| HTML to text | Integrations | /oss/python/integrations/document_transformers/html2text | `integrations/html-to-text.md` |
+| Hacker News | Integrations | /oss/python/integrations/providers/hacker_news | `integrations/hacker-news.md` |
+| Hacker News | Integrations | /oss/python/integrations/document_loaders/hacker_news | `integrations/hacker-news.md` |
+| Hazy Research | Integrations | /oss/python/integrations/providers/hazy_research | `integrations/hazy-research.md` |
+| Helicone | Integrations | /oss/python/integrations/providers/helicone | `integrations/helicone.md` |
+| Hippo | Integrations | /oss/python/integrations/vectorstores/hippo | `integrations/hippo.md` |
+| Hologres | Integrations | /oss/python/integrations/vectorstores/hologres | `integrations/hologres.md` |
+| Hologres | Integrations | /oss/python/integrations/providers/hologres | `integrations/hologres.md` |
+| Huawei | Integrations | /oss/python/integrations/providers/huawei | `integrations/huawei.md` |
+| Huawei OBS Directory | Integrations | /oss/python/integrations/document_loaders/huawei_obs_directory | `integrations/huawei-obs-directory.md` |
+| Huawei OBS File | Integrations | /oss/python/integrations/document_loaders/huawei_obs_file | `integrations/huawei-obs-file.md` |
+| Hugging Face | Integrations | /oss/python/integrations/providers/huggingface | `integrations/hugging-face.md` |
+| Hugging Face | Integrations | /oss/python/integrations/text_embedding/huggingfacehub | `integrations/hugging-face.md` |
+| Hugging Face Local Pipelines | Integrations | /oss/python/integrations/llms/huggingface_pipelines | `integrations/hugging-face-local-pipelines.md` |
+| HuggingFace Hub Tools | Integrations | /oss/python/integrations/tools/huggingface_tools | `integrations/huggingface-hub-tools.md` |
+| HuggingFace dataset | Integrations | /oss/python/integrations/document_loaders/hugging_face_dataset | `integrations/huggingface-dataset.md` |
+| Huggingface Endpoints | Integrations | /oss/python/integrations/llms/huggingface_endpoint | `integrations/huggingface-endpoints.md` |
+| Human as a tool | Integrations | /oss/python/integrations/tools/human_tools | `integrations/human-as-a-tool.md` |
+| Hyperbrowser | Integrations | /oss/python/integrations/providers/hyperbrowser | `integrations/hyperbrowser.md` |
+| Hyperbrowser Browser Agent Tools | Integrations | /oss/python/integrations/tools/hyperbrowser_browser_agent_tools | `integrations/hyperbrowser-browser-agent-tools.md` |
+| Hyperbrowser Web Scraping Tools | Integrations | /oss/python/integrations/tools/hyperbrowser_web_scraping_tools | `integrations/hyperbrowser-web-scraping-tools.md` |
+| HyperbrowserLoader | Integrations | /oss/python/integrations/document_loaders/hyperbrowser | `integrations/hyperbrowserloader.md` |
+| IBM | Integrations | /oss/python/integrations/providers/ibm | `integrations/ibm.md` |
+| IBM Db2 Vector Store and Vector Search | Integrations | /oss/python/integrations/vectorstores/db2 | `integrations/ibm-db2-vector-store-and-vector-search.md` |
+| IBM watsonx.ai | Integrations | /oss/python/integrations/retrievers/ibm_watsonx_ranker | `integrations/ibm-watsonx-ai.md` |
+| IBM watsonx.ai | Integrations | /oss/python/integrations/tools/ibm_watsonx | `integrations/ibm-watsonx-ai.md` |
+| IBM watsonx.ai | Integrations | /oss/python/integrations/tools/ibm_watsonx_sql | `integrations/ibm-watsonx-ai.md` |
+| IBM watsonx.ai | Integrations | /oss/python/integrations/llms/ibm_watsonx | `integrations/ibm-watsonx-ai.md` |
+| IEIT Systems | Integrations | /oss/python/integrations/providers/ieit_systems | `integrations/ieit-systems.md` |
+| IFTTT WebHooks | Integrations | /oss/python/integrations/tools/ifttt | `integrations/ifttt-webhooks.md` |
+| IMSDb | Integrations | /oss/python/integrations/providers/imsdb | `integrations/imsdb.md` |
+| IMSDb | Integrations | /oss/python/integrations/document_loaders/imsdb | `integrations/imsdb.md` |
+| IPEX-LLM - Local BGE Embeddings on Intel CPU | Integrations | /oss/python/integrations/text_embedding/ipex_llm | `integrations/ipex-llm-local-bge-embeddings-on-intel-cpu.md` |
+| IPEX-LLM - Local BGE Embeddings on Intel GPU | Integrations | /oss/python/integrations/text_embedding/ipex_llm_gpu | `integrations/ipex-llm-local-bge-embeddings-on-intel-gpu.md` |
+| Image captions | Integrations | /oss/python/integrations/document_loaders/image_captions | `integrations/image-captions.md` |
+| Images | Integrations | /oss/python/integrations/document_loaders/image | `integrations/images.md` |
+| InMemoryByteStore | Integrations | /oss/python/integrations/stores/in_memory | `integrations/inmemorybytestore.md` |
+| Infinispan VS | Integrations | /oss/python/integrations/providers/infinispanvs | `integrations/infinispan-vs.md` |
+| Infinity | Integrations | /oss/python/integrations/text_embedding/infinity | `integrations/infinity.md` |
+| Infinity | Integrations | /oss/python/integrations/providers/infinity | `integrations/infinity.md` |
+| Infino | Integrations | /oss/python/integrations/providers/infino | `integrations/infino.md` |
+| Infino | Integrations | /oss/python/integrations/callbacks/infino | `integrations/infino.md` |
+| Infobip | Integrations | /oss/python/integrations/tools/infobip | `integrations/infobip.md` |
+| Instruct Embeddings on Hugging Face | Integrations | /oss/python/integrations/text_embedding/instruct_embeddings | `integrations/instruct-embeddings-on-hugging-face.md` |
+| Integration packages | Integrations | /oss/python/integrations/providers/overview | `integrations/integration-packages.md` |
+| Intel | Integrations | /oss/python/integrations/providers/intel | `integrations/intel.md` |
+| Intel Weight-Only Quantization | Integrations | /oss/python/integrations/llms/weight_only_quantization | `integrations/intel-weight-only-quantization.md` |
+| Intel's Visual Data Management System (VDMS) | Integrations | /oss/python/integrations/vectorstores/vdms | `integrations/intel-s-visual-data-management-system-vdms.md` |
+| Intel® Extension for Transformers Quantized Text Embeddings | Integrations | /oss/python/integrations/text_embedding/itrex | `integrations/intel-extension-for-transformers-quantized-text-embeddings.md` |
+| Ionic Shopping Tool | Integrations | /oss/python/integrations/tools/ionic_shopping | `integrations/ionic-shopping-tool.md` |
+| Isaacus | Integrations | /oss/python/integrations/text_embedding/isaacus | `integrations/isaacus.md` |
+| Isaacus | Integrations | /oss/python/integrations/providers/isaacus | `integrations/isaacus.md` |
+| Iugu | Integrations | /oss/python/integrations/providers/iugu | `integrations/iugu.md` |
+| Iugu | Integrations | /oss/python/integrations/document_loaders/iugu | `integrations/iugu.md` |
+| JSON Toolkit | Integrations | /oss/python/integrations/tools/json | `integrations/json-toolkit.md` |
+| JSONLoader | Integrations | /oss/python/integrations/document_loaders/json | `integrations/jsonloader.md` |
+| Jaguar | Integrations | /oss/python/integrations/providers/jaguar | `integrations/jaguar.md` |
+| Jaguar Vector Database | Integrations | /oss/python/integrations/vectorstores/jaguar | `integrations/jaguar-vector-database.md` |
+| JaguarDB Vector Database | Integrations | /oss/python/integrations/retrievers/jaguar | `integrations/jaguardb-vector-database.md` |
+| Javelin AI Gateway | Integrations | /oss/python/integrations/providers/javelin_ai_gateway | `integrations/javelin-ai-gateway.md` |
+| Jenkins | Integrations | /oss/python/integrations/providers/jenkins | `integrations/jenkins.md` |
+| Jenkins | Integrations | /oss/python/integrations/tools/jenkins | `integrations/jenkins.md` |
+| Jina | Integrations | /oss/python/integrations/text_embedding/jina | `integrations/jina.md` |
+| Jina AI | Integrations | /oss/python/integrations/providers/jina | `integrations/jina-ai.md` |
+| Jina Reranker | Integrations | /oss/python/integrations/document_transformers/jina_rerank | `integrations/jina-reranker.md` |
+| Jina Search | Integrations | /oss/python/integrations/tools/jina_search | `integrations/jina-search.md` |
+| JinaChat | Integrations | /oss/python/integrations/chat/jinachat | `integrations/jinachat.md` |
+| Jira Toolkit | Integrations | /oss/python/integrations/tools/jira | `integrations/jira-toolkit.md` |
+| John Snow Labs | Integrations | /oss/python/integrations/text_embedding/johnsnowlabs_embedding | `integrations/john-snow-labs.md` |
+| Johnsnowlabs | Integrations | /oss/python/integrations/providers/johnsnowlabs | `integrations/johnsnowlabs.md` |
+| Joplin | Integrations | /oss/python/integrations/providers/joplin | `integrations/joplin.md` |
+| Joplin | Integrations | /oss/python/integrations/document_loaders/joplin | `integrations/joplin.md` |
+| Jupyter Notebook | Integrations | /oss/python/integrations/document_loaders/jupyter_notebook | `integrations/jupyter-notebook.md` |
+| KDB.AI | Integrations | /oss/python/integrations/providers/kdbai | `integrations/kdb-ai.md` |
+| Kay.ai | Integrations | /oss/python/integrations/retrievers/kay | `integrations/kay-ai.md` |
+| Key-value stores | Integrations | /oss/python/integrations/stores | `integrations/key-value-stores.md` |
+| Kinetica | Integrations | /oss/python/integrations/providers/kinetica | `integrations/kinetica.md` |
+| Kinetica | Integrations | /oss/python/integrations/document_loaders/kinetica | `integrations/kinetica.md` |
+| Kinetica Language To SQL Chat Model | Integrations | /oss/python/integrations/chat/kinetica | `integrations/kinetica-language-to-sql-chat-model.md` |
+| Kinetica Vectorstore API | Integrations | /oss/python/integrations/vectorstores/kinetica | `integrations/kinetica-vectorstore-api.md` |
+| Kinetica Vectorstore based Retriever | Integrations | /oss/python/integrations/retrievers/kinetica | `integrations/kinetica-vectorstore-based-retriever.md` |
+| KoNLPY | Integrations | /oss/python/integrations/providers/konlpy | `integrations/konlpy.md` |
+| KoboldAI | Integrations | /oss/python/integrations/providers/koboldai | `integrations/koboldai.md` |
+| KoboldAI API | Integrations | /oss/python/integrations/llms/koboldai | `integrations/koboldai-api.md` |
+| Konko | Integrations | /oss/python/integrations/providers/konko | `integrations/konko.md` |
+| Konko | Integrations | /oss/python/integrations/llms/konko | `integrations/konko.md` |
+| Kuzu | Integrations | /oss/python/integrations/graphs/kuzu_db | `integrations/kuzu.md` |
+| Kùzu | Integrations | /oss/python/integrations/providers/kuzu | `integrations/k-zu.md` |
+| LASER Language-Agnostic SEntence Representations Embeddings by Meta AI | Integrations | /oss/python/integrations/text_embedding/laser | `integrations/laser-language-agnostic-sentence-representations-embeddings-by-meta-ai.md` |
+| LLM Sherpa | Integrations | /oss/python/integrations/document_loaders/llmsherpa | `integrations/llm-sherpa.md` |
+| LLMLingua Document Compressor | Integrations | /oss/python/integrations/retrievers/llmlingua | `integrations/llmlingua-document-compressor.md` |
+| LLMRails | Integrations | /oss/python/integrations/vectorstores/llm_rails | `integrations/llmrails.md` |
+| LLMRails | Integrations | /oss/python/integrations/text_embedding/llm_rails | `integrations/llmrails.md` |
+| LLMonitor | Integrations | /oss/python/integrations/providers/llmonitor | `integrations/llmonitor.md` |
+| LLMonitor | Integrations | /oss/python/integrations/callbacks/llmonitor | `integrations/llmonitor.md` |
+| LOTR (Merger Retriever) | Integrations | /oss/python/integrations/retrievers/merger_retriever | `integrations/lotr-merger-retriever.md` |
+| Label Studio | Integrations | /oss/python/integrations/providers/labelstudio | `integrations/label-studio.md` |
+| Label Studio | Integrations | /oss/python/integrations/callbacks/labelstudio | `integrations/label-studio.md` |
+| LanceDB | Integrations | /oss/python/integrations/vectorstores/lancedb | `integrations/lancedb.md` |
+| LanceDB | Integrations | /oss/python/integrations/providers/lancedb | `integrations/lancedb.md` |
+| LangChain Decorators | Integrations | /oss/python/integrations/providers/langchain_decorators | `integrations/langchain-decorators.md` |
+| LangFair | Integrations | /oss/python/integrations/providers/langfair | `integrations/langfair.md` |
+| LangSmithLoader | Integrations | /oss/python/integrations/document_loaders/langsmith | `integrations/langsmithloader.md` |
+| Langfuse | Integrations | /oss/python/integrations/providers/langfuse | `integrations/langfuse.md` |
+| Lantern | Integrations | /oss/python/integrations/vectorstores/lantern | `integrations/lantern.md` |
+| Lantern | Integrations | /oss/python/integrations/providers/lantern | `integrations/lantern.md` |
+| LarkSuite (FeiShu) | Integrations | /oss/python/integrations/document_loaders/larksuite | `integrations/larksuite-feishu.md` |
+| Lemon Agent | Integrations | /oss/python/integrations/tools/lemonai | `integrations/lemon-agent.md` |
+| Lindorm | Integrations | /oss/python/integrations/text_embedding/lindorm | `integrations/lindorm.md` |
+| Lindorm | Integrations | /oss/python/integrations/providers/lindorm | `integrations/lindorm.md` |
+| LindormVectorStore | Integrations | /oss/python/integrations/vectorstores/lindorm | `integrations/lindormvectorstore.md` |
+| Linkup | Integrations | /oss/python/integrations/providers/linkup | `integrations/linkup.md` |
+| LinkupSearchRetriever | Integrations | /oss/python/integrations/retrievers/linkup_search | `integrations/linkupsearchretriever.md` |
+| LinkupSearchTool | Integrations | /oss/python/integrations/tools/linkup_search | `integrations/linkupsearchtool.md` |
+| LiteLLM | Integrations | /oss/python/integrations/providers/litellm | `integrations/litellm.md` |
+| Llama.cpp | Integrations | /oss/python/integrations/chat/llamacpp | `integrations/llama-cpp.md` |
+| Llama.cpp | Integrations | /oss/python/integrations/text_embedding/llamacpp | `integrations/llama-cpp.md` |
+| Llama.cpp | Integrations | /oss/python/integrations/providers/llamacpp | `integrations/llama-cpp.md` |
+| Llama2Chat | Integrations | /oss/python/integrations/chat/llama2_chat | `integrations/llama2chat.md` |
+| LlamaEdge | Integrations | /oss/python/integrations/chat/llama_edge | `integrations/llamaedge.md` |
+| LlamaEdge | Integrations | /oss/python/integrations/providers/llamaedge | `integrations/llamaedge.md` |
+| LlamaIndex | Integrations | /oss/python/integrations/providers/llama_index | `integrations/llamaindex.md` |
+| Llamafile | Integrations | /oss/python/integrations/providers/llamafile | `integrations/llamafile.md` |
+| Llamafile | Integrations | /oss/python/integrations/llms/llamafile | `integrations/llamafile.md` |
+| LocalAI | Integrations | /oss/python/integrations/providers/localai | `integrations/localai.md` |
+| LocalAI Embeddings | Integrations | /oss/python/integrations/text_embedding/localai | `integrations/localai-embeddings.md` |
+| LocalFileStore | Integrations | /oss/python/integrations/stores/file_system | `integrations/localfilestore.md` |
+| Log, Trace, and Monitor | Integrations | /oss/python/integrations/providers/portkey/logging_tracing_portkey | `integrations/log-trace-and-monitor.md` |
+| Log10 | Integrations | /oss/python/integrations/providers/log10 | `integrations/log10.md` |
+| MCP Toolbox | Integrations | /oss/python/integrations/providers/toolbox | `integrations/mcp-toolbox.md` |
+| MCP Toolbox for Databases | Integrations | /oss/python/integrations/tools/mcp_toolbox | `integrations/mcp-toolbox-for-databases.md` |
+| MLX | Integrations | /oss/python/integrations/chat/mlx | `integrations/mlx.md` |
+| MLX | Integrations | /oss/python/integrations/providers/mlx | `integrations/mlx.md` |
+| MLX Local Pipelines | Integrations | /oss/python/integrations/llms/mlx_pipelines | `integrations/mlx-local-pipelines.md` |
+| MLflow | Integrations | /oss/python/integrations/providers/mlflow_tracking | `integrations/mlflow.md` |
+| MLflow AI Gateway for LLMs | Integrations | /oss/python/integrations/providers/mlflow | `integrations/mlflow-ai-gateway-for-llms.md` |
+| ManticoreSearch VectorStore | Integrations | /oss/python/integrations/vectorstores/manticore_search | `integrations/manticoresearch-vectorstore.md` |
+| MariTalk | Integrations | /oss/python/integrations/providers/maritalk | `integrations/maritalk.md` |
+| MariaDB | Integrations | /oss/python/integrations/vectorstores/mariadb | `integrations/mariadb.md` |
+| MariaDB | Integrations | /oss/python/integrations/providers/mariadb | `integrations/mariadb.md` |
+| Maritalk | Integrations | /oss/python/integrations/chat/maritalk | `integrations/maritalk.md` |
+| Marqo | Integrations | /oss/python/integrations/vectorstores/marqo | `integrations/marqo.md` |
+| Marqo | Integrations | /oss/python/integrations/providers/marqo | `integrations/marqo.md` |
+| Mastodon | Integrations | /oss/python/integrations/document_loaders/mastodon | `integrations/mastodon.md` |
+| MathPixPDFLoader | Integrations | /oss/python/integrations/document_loaders/mathpix | `integrations/mathpixpdfloader.md` |
+| MediaWiki Dump | Integrations | /oss/python/integrations/document_loaders/mediawikidump | `integrations/mediawiki-dump.md` |
+| MediaWikiDump | Integrations | /oss/python/integrations/providers/mediawikidump | `integrations/mediawikidump.md` |
+| Meilisearch | Integrations | /oss/python/integrations/vectorstores/meilisearch | `integrations/meilisearch.md` |
+| Meilisearch | Integrations | /oss/python/integrations/providers/meilisearch | `integrations/meilisearch.md` |
+| Memcached | Integrations | /oss/python/integrations/providers/memcached | `integrations/memcached.md` |
+| Memgraph | Integrations | /oss/python/integrations/providers/memgraph | `integrations/memgraph.md` |
+| Memgraph | Integrations | /oss/python/integrations/graphs/memgraph | `integrations/memgraph.md` |
+| MemgraphToolkit | Integrations | /oss/python/integrations/tools/memgraph | `integrations/memgraphtoolkit.md` |
+| Memorize | Integrations | /oss/python/integrations/tools/memorize | `integrations/memorize.md` |
+| Merge Documents Loader | Integrations | /oss/python/integrations/document_loaders/merge_doc | `integrations/merge-documents-loader.md` |
+| Metal | Integrations | /oss/python/integrations/retrievers/metal | `integrations/metal.md` |
+| Metal | Integrations | /oss/python/integrations/providers/metal | `integrations/metal.md` |
+| Microsoft | Integrations | /oss/python/integrations/providers/microsoft | `integrations/microsoft.md` |
+| Microsoft Excel | Integrations | /oss/python/integrations/document_loaders/microsoft_excel | `integrations/microsoft-excel.md` |
+| Microsoft OneDrive | Integrations | /oss/python/integrations/document_loaders/microsoft_onedrive | `integrations/microsoft-onedrive.md` |
+| Microsoft OneNote | Integrations | /oss/python/integrations/document_loaders/microsoft_onenote | `integrations/microsoft-onenote.md` |
+| Microsoft PowerPoint | Integrations | /oss/python/integrations/document_loaders/microsoft_powerpoint | `integrations/microsoft-powerpoint.md` |
+| Microsoft SharePoint | Integrations | /oss/python/integrations/document_loaders/microsoft_sharepoint | `integrations/microsoft-sharepoint.md` |
+| Microsoft Word | Integrations | /oss/python/integrations/document_loaders/microsoft_word | `integrations/microsoft-word.md` |
+| Milvus | Integrations | /oss/python/integrations/providers/milvus | `integrations/milvus.md` |
+| Milvus | Integrations | /oss/python/integrations/vectorstores/milvus | `integrations/milvus.md` |
+| MindsDB | Integrations | /oss/python/integrations/providers/mindsdb | `integrations/mindsdb.md` |
+| MiniMax | Integrations | /oss/python/integrations/text_embedding/minimax | `integrations/minimax.md` |
+| MiniMaxChat | Integrations | /oss/python/integrations/chat/minimax | `integrations/minimaxchat.md` |
+| Minimax | Integrations | /oss/python/integrations/providers/minimax | `integrations/minimax.md` |
+| Minimax | Integrations | /oss/python/integrations/llms/minimax | `integrations/minimax.md` |
+| MistralAI | Integrations | /oss/python/integrations/providers/mistralai | `integrations/mistralai.md` |
+| MistralAIEmbeddings | Integrations | /oss/python/integrations/text_embedding/mistralai | `integrations/mistralaiembeddings.md` |
+| Modal | Integrations | /oss/python/integrations/providers/modal | `integrations/modal.md` |
+| Model2Vec | Integrations | /oss/python/integrations/text_embedding/model2vec | `integrations/model2vec.md` |
+| ModelScope | Integrations | /oss/python/integrations/text_embedding/modelscope_embedding | `integrations/modelscope.md` |
+| ModelScope | Integrations | /oss/python/integrations/providers/modelscope | `integrations/modelscope.md` |
+| ModelScopeChatEndpoint | Integrations | /oss/python/integrations/chat/modelscope_chat_endpoint | `integrations/modelscopechatendpoint.md` |
+| Modern Treasury | Integrations | /oss/python/integrations/providers/modern_treasury | `integrations/modern-treasury.md` |
+| Modern Treasury | Integrations | /oss/python/integrations/document_loaders/modern_treasury | `integrations/modern-treasury.md` |
+| Mojeek Search | Integrations | /oss/python/integrations/tools/mojeek_search | `integrations/mojeek-search.md` |
+| Momento | Integrations | /oss/python/integrations/providers/momento | `integrations/momento.md` |
+| Momento Vector Index (MVI) | Integrations | /oss/python/integrations/vectorstores/momento_vector_index | `integrations/momento-vector-index-mvi.md` |
+| MongoDB | Integrations | /oss/python/integrations/providers/mongodb | `integrations/mongodb.md` |
+| MongoDB | Integrations | /oss/python/integrations/document_loaders/mongodb | `integrations/mongodb.md` |
+| MongoDB Atlas | Integrations | /oss/python/integrations/providers/mongodb_atlas | `integrations/mongodb-atlas.md` |
+| MongoDB Atlas | Integrations | /oss/python/integrations/vectorstores/mongodb_atlas | `integrations/mongodb-atlas.md` |
+| MoonshotChat | Integrations | /oss/python/integrations/chat/moonshot | `integrations/moonshotchat.md` |
+| Moorcheh | Integrations | /oss/python/integrations/vectorstores/moorcheh | `integrations/moorcheh.md` |
+| MosaicML | Integrations | /oss/python/integrations/text_embedding/mosaicml | `integrations/mosaicml.md` |
+| Motherduck | Integrations | /oss/python/integrations/providers/motherduck | `integrations/motherduck.md` |
+| Motörhead | Integrations | /oss/python/integrations/providers/motorhead | `integrations/mot-rhead.md` |
+| MultiOn Toolkit | Integrations | /oss/python/integrations/tools/multion | `integrations/multion-toolkit.md` |
+| MyScale | Integrations | /oss/python/integrations/vectorstores/myscale | `integrations/myscale.md` |
+| MyScale | Integrations | /oss/python/integrations/providers/myscale | `integrations/myscale.md` |
+| NASA Toolkit | Integrations | /oss/python/integrations/tools/nasa | `integrations/nasa-toolkit.md` |
+| NAVER | Integrations | /oss/python/integrations/providers/naver | `integrations/naver.md` |
+| NLP Cloud | Integrations | /oss/python/integrations/text_embedding/nlp_cloud | `integrations/nlp-cloud.md` |
+| NLP Cloud | Integrations | /oss/python/integrations/llms/nlpcloud | `integrations/nlp-cloud.md` |
+| NLPCloud | Integrations | /oss/python/integrations/providers/nlpcloud | `integrations/nlpcloud.md` |
+| NVIDIA | Integrations | /oss/python/integrations/providers/nvidia | `integrations/nvidia.md` |
+| NVIDIA Riva ASR and TTS | Integrations | /oss/python/integrations/tools/nvidia_riva | `integrations/nvidia-riva-asr-and-tts.md` |
+| NVIDIAEmbeddings | Integrations | /oss/python/integrations/text_embedding/nvidia_ai_endpoints | `integrations/nvidiaembeddings.md` |
+| NanoPQ (Product Quantization) | Integrations | /oss/python/integrations/retrievers/nanopq | `integrations/nanopq-product-quantization.md` |
+| Natural Language API Toolkits | Integrations | /oss/python/integrations/tools/openapi_nla | `integrations/natural-language-api-toolkits.md` |
+| Naver | Integrations | /oss/python/integrations/text_embedding/naver | `integrations/naver.md` |
+| Naver Search | Integrations | /oss/python/integrations/tools/naver_search | `integrations/naver-search.md` |
+| Near Blockchain | Integrations | /oss/python/integrations/document_loaders/mintbase | `integrations/near-blockchain.md` |
+| Nebius | Integrations | /oss/python/integrations/retrievers/nebius | `integrations/nebius.md` |
+| Nebius | Integrations | /oss/python/integrations/text_embedding/nebius | `integrations/nebius.md` |
+| Nebius | Integrations | /oss/python/integrations/providers/nebius | `integrations/nebius.md` |
+| Nebius Chat Models | Integrations | /oss/python/integrations/chat/nebius | `integrations/nebius-chat-models.md` |
+| Nebula | Integrations | /oss/python/integrations/providers/symblai_nebula | `integrations/nebula.md` |
+| Nebula (Symbl.ai) | Integrations | /oss/python/integrations/chat/symblai_nebula | `integrations/nebula-symbl-ai.md` |
+| Needle | Integrations | /oss/python/integrations/retrievers/needle | `integrations/needle.md` |
+| Needle Document Loader | Integrations | /oss/python/integrations/document_loaders/needle | `integrations/needle-document-loader.md` |
+| Neo4j | Integrations | /oss/python/integrations/providers/neo4j | `integrations/neo4j.md` |
+| Neo4j | Integrations | /oss/python/integrations/graphs/neo4j_cypher | `integrations/neo4j.md` |
+| Neo4j Vector Index | Integrations | /oss/python/integrations/vectorstores/neo4jvector | `integrations/neo4j-vector-index.md` |
+| Netmind | Integrations | /oss/python/integrations/text_embedding/netmind | `integrations/netmind.md` |
+| Netmind | Integrations | /oss/python/integrations/providers/netmind | `integrations/netmind.md` |
+| NeuralDB | Integrations | /oss/python/integrations/retrievers/thirdai_neuraldb | `integrations/neuraldb.md` |
+| News URL | Integrations | /oss/python/integrations/document_loaders/news | `integrations/news-url.md` |
+| Nimble | Integrations | /oss/python/integrations/retrievers/nimble | `integrations/nimble.md` |
+| Nimble | Integrations | /oss/python/integrations/providers/nimble | `integrations/nimble.md` |
+| Nomic | Integrations | /oss/python/integrations/providers/nomic | `integrations/nomic.md` |
+| NomicEmbeddings | Integrations | /oss/python/integrations/text_embedding/nomic | `integrations/nomicembeddings.md` |
+| Notion DB | Integrations | /oss/python/integrations/providers/notion | `integrations/notion-db.md` |
+| Notion DB 2/2 | Integrations | /oss/python/integrations/document_loaders/notion | `integrations/notion-db-2-2.md` |
+| Nuclia | Integrations | /oss/python/integrations/providers/nuclia | `integrations/nuclia.md` |
+| Nuclia | Integrations | /oss/python/integrations/document_loaders/nuclia | `integrations/nuclia.md` |
+| Nuclia | Integrations | /oss/python/integrations/document_transformers/nuclia_transformer | `integrations/nuclia.md` |
+| Nuclia Understanding | Integrations | /oss/python/integrations/tools/nuclia | `integrations/nuclia-understanding.md` |
+| NucliaDB | Integrations | /oss/python/integrations/vectorstores/nucliadb | `integrations/nucliadb.md` |
+| OCI Data Science Model Deployment Endpoint | Integrations | /oss/python/integrations/llms/oci_model_deployment_endpoint | `integrations/oci-data-science-model-deployment-endpoint.md` |
+| OVHcloud | Integrations | /oss/python/integrations/text_embedding/ovhcloud | `integrations/ovhcloud.md` |
+| Obsidian | Integrations | /oss/python/integrations/providers/obsidian | `integrations/obsidian.md` |
+| Obsidian | Integrations | /oss/python/integrations/document_loaders/obsidian | `integrations/obsidian.md` |
+| OceanBase | Integrations | /oss/python/integrations/providers/oceanbase | `integrations/oceanbase.md` |
+| OceanbaseVectorStore | Integrations | /oss/python/integrations/vectorstores/oceanbase | `integrations/oceanbasevectorstore.md` |
+| OctoAI | Integrations | /oss/python/integrations/providers/octoai | `integrations/octoai.md` |
+| OctoAI | Integrations | /oss/python/integrations/llms/octoai | `integrations/octoai.md` |
+| Office365 Toolkit | Integrations | /oss/python/integrations/tools/office365 | `integrations/office365-toolkit.md` |
+| Ollama | Integrations | /oss/python/integrations/providers/ollama | `integrations/ollama.md` |
+| Ollama | Integrations | /oss/python/integrations/llms/ollama | `integrations/ollama.md` |
+| OllamaEmbeddings | Integrations | /oss/python/integrations/text_embedding/ollama | `integrations/ollamaembeddings.md` |
+| Ontotext GraphDB | Integrations | /oss/python/integrations/providers/ontotext_graphdb | `integrations/ontotext-graphdb.md` |
+| Ontotext GraphDB | Integrations | /oss/python/integrations/graphs/ontotext | `integrations/ontotext-graphdb.md` |
+| Open City Data | Integrations | /oss/python/integrations/document_loaders/open_city_data | `integrations/open-city-data.md` |
+| Open Document Format (ODT) | Integrations | /oss/python/integrations/document_loaders/odt | `integrations/open-document-format-odt.md` |
+| OpenAI | Integrations | /oss/python/integrations/providers/openai | `integrations/openai.md` |
+| OpenAI | Integrations | /oss/python/integrations/llms/openai | `integrations/openai.md` |
+| OpenAI Adapter | Integrations | /oss/python/integrations/adapters/openai | `integrations/openai-adapter.md` |
+| OpenAI Adapter(Old) | Integrations | /oss/python/integrations/adapters/openai-old | `integrations/openai-adapter-old.md` |
+| OpenAIEmbeddings | Integrations | /oss/python/integrations/text_embedding/openai | `integrations/openaiembeddings.md` |
+| OpenAPI Toolkit | Integrations | /oss/python/integrations/tools/openapi | `integrations/openapi-toolkit.md` |
+| OpenClip | Integrations | /oss/python/integrations/text_embedding/open_clip | `integrations/openclip.md` |
+| OpenDataLoader PDF | Integrations | /oss/python/integrations/providers/opendataloader_pdf | `integrations/opendataloader-pdf.md` |
+| OpenDataLoader PDF | Integrations | /oss/python/integrations/document_loaders/opendataloader_pdf | `integrations/opendataloader-pdf.md` |
+| OpenGradient | Integrations | /oss/python/integrations/providers/opengradient | `integrations/opengradient.md` |
+| OpenGradientToolkit | Integrations | /oss/python/integrations/tools/opengradient_toolkit | `integrations/opengradienttoolkit.md` |
+| OpenLLM | Integrations | /oss/python/integrations/providers/openllm | `integrations/openllm.md` |
+| OpenLLM | Integrations | /oss/python/integrations/llms/openllm | `integrations/openllm.md` |
+| OpenSearch | Integrations | /oss/python/integrations/vectorstores/opensearch | `integrations/opensearch.md` |
+| OpenSearch | Integrations | /oss/python/integrations/providers/opensearch | `integrations/opensearch.md` |
+| OpenVINO | Integrations | /oss/python/integrations/llms/openvino | `integrations/openvino.md` |
+| OpenVINOEmbeddings | Integrations | /oss/python/integrations/text_embedding/openvino | `integrations/openvinoembeddings.md` |
+| OpenWeatherMap | Integrations | /oss/python/integrations/providers/openweathermap | `integrations/openweathermap.md` |
+| OpenWeatherMap | Integrations | /oss/python/integrations/tools/openweathermap | `integrations/openweathermap.md` |
+| Oracle AI Vector Search | Integrations | /oss/python/integrations/providers/oracleai | `integrations/oracle-ai-vector-search.md` |
+| Oracle AI Vector Search - Vector Store | Integrations | /oss/python/integrations/vectorstores/oracle | `integrations/oracle-ai-vector-search-vector-store.md` |
+| Oracle AI Vector Search Document Processing | Integrations | /oss/python/integrations/document_loaders/oracleai | `integrations/oracle-ai-vector-search-document-processing.md` |
+| Oracle AI Vector Search Generate Embeddings | Integrations | /oss/python/integrations/text_embedding/oracleai | `integrations/oracle-ai-vector-search-generate-embeddings.md` |
+| Oracle AI Vector Search Generate Summary | Integrations | /oss/python/integrations/tools/oracleai | `integrations/oracle-ai-vector-search-generate-summary.md` |
+| Oracle Autonomous Database | Integrations | /oss/python/integrations/document_loaders/oracleadb_loader | `integrations/oracle-autonomous-database.md` |
+| Oracle Cloud Infrastructure (OCI) | Integrations | /oss/python/integrations/providers/oci | `integrations/oracle-cloud-infrastructure-oci.md` |
+| Oracle Cloud Infrastructure Generative AI | Integrations | /oss/python/integrations/text_embedding/oci_generative_ai | `integrations/oracle-cloud-infrastructure-generative-ai.md` |
+| Oracle Cloud Infrastructure Generative AI | Integrations | /oss/python/integrations/llms/oci_generative_ai | `integrations/oracle-cloud-infrastructure-generative-ai.md` |
+| Org-mode | Integrations | /oss/python/integrations/document_loaders/org_mode | `integrations/org-mode.md` |
+| Outline | Integrations | /oss/python/integrations/retrievers/outline | `integrations/outline.md` |
+| Outline | Integrations | /oss/python/integrations/providers/outline | `integrations/outline.md` |
+| Outline Document Loader | Integrations | /oss/python/integrations/document_loaders/outline | `integrations/outline-document-loader.md` |
+| Outlines | Integrations | /oss/python/integrations/providers/outlines | `integrations/outlines.md` |
+| Oxylabs | Integrations | /oss/python/integrations/providers/oxylabs | `integrations/oxylabs.md` |
+| Oxylabs | Integrations | /oss/python/integrations/tools/oxylabs | `integrations/oxylabs.md` |
+| PDFMinerLoader | Integrations | /oss/python/integrations/document_loaders/pdfminer | `integrations/pdfminerloader.md` |
+| PDFPlumber | Integrations | /oss/python/integrations/document_loaders/pdfplumber | `integrations/pdfplumber.md` |
+| PGVecto.rs | Integrations | /oss/python/integrations/vectorstores/pgvecto_rs | `integrations/pgvecto-rs.md` |
+| PGVector | Integrations | /oss/python/integrations/providers/pgvector | `integrations/pgvector.md` |
+| PGVector | Integrations | /oss/python/integrations/vectorstores/pgvector | `integrations/pgvector.md` |
+| PGVectorStore | Integrations | /oss/python/integrations/vectorstores/pgvectorstore | `integrations/pgvectorstore.md` |
+| Pandas | Integrations | /oss/python/integrations/providers/pandas | `integrations/pandas.md` |
+| Pandas DataFrame | Integrations | /oss/python/integrations/document_loaders/pandas_dataframe | `integrations/pandas-dataframe.md` |
+| Pandas Dataframe | Integrations | /oss/python/integrations/tools/pandas | `integrations/pandas-dataframe.md` |
+| Parallel | Integrations | /oss/python/integrations/providers/parallel | `integrations/parallel.md` |
+| Parallel Extract | Integrations | /oss/python/integrations/tools/parallel_extract | `integrations/parallel-extract.md` |
+| Parallel Search | Integrations | /oss/python/integrations/tools/parallel_search | `integrations/parallel-search.md` |
+| Passio NutritionAI | Integrations | /oss/python/integrations/tools/passio_nutrition_ai | `integrations/passio-nutritionai.md` |
+| Pathway | Integrations | /oss/python/integrations/vectorstores/pathway | `integrations/pathway.md` |
+| Pebblo Safe DocumentLoader | Integrations | /oss/python/integrations/document_loaders/pebblo | `integrations/pebblo-safe-documentloader.md` |
+| Perigon | Integrations | /oss/python/integrations/providers/perigon | `integrations/perigon.md` |
+| Perigon | Integrations | /oss/python/integrations/retrievers/perigon | `integrations/perigon.md` |
+| Permit | Integrations | /oss/python/integrations/retrievers/permit | `integrations/permit.md` |
+| Permit | Integrations | /oss/python/integrations/providers/permit | `integrations/permit.md` |
+| Permit | Integrations | /oss/python/integrations/tools/permit | `integrations/permit.md` |
+| Perplexity | Integrations | /oss/python/integrations/providers/perplexity | `integrations/perplexity.md` |
+| Petals | Integrations | /oss/python/integrations/providers/petals | `integrations/petals.md` |
+| Pinecone | Integrations | /oss/python/integrations/providers/pinecone | `integrations/pinecone.md` |
+| Pinecone | Integrations | /oss/python/integrations/vectorstores/pinecone | `integrations/pinecone.md` |
+| Pinecone (sparse) | Integrations | /oss/python/integrations/vectorstores/pinecone_sparse | `integrations/pinecone-sparse.md` |
+| Pinecone Embeddings | Integrations | /oss/python/integrations/text_embedding/pinecone | `integrations/pinecone-embeddings.md` |
+| Pinecone Hybrid Search | Integrations | /oss/python/integrations/retrievers/pinecone_hybrid_search | `integrations/pinecone-hybrid-search.md` |
+| Pinecone Rerank | Integrations | /oss/python/integrations/retrievers/pinecone_rerank | `integrations/pinecone-rerank.md` |
+| PipelineAI | Integrations | /oss/python/integrations/providers/pipelineai | `integrations/pipelineai.md` |
+| Pipeshift | Integrations | /oss/python/integrations/providers/pipeshift | `integrations/pipeshift.md` |
+| Pipeshift | Integrations | /oss/python/integrations/llms/pipeshift | `integrations/pipeshift.md` |
+| PlayWright Browser Toolkit | Integrations | /oss/python/integrations/tools/playwright | `integrations/playwright-browser-toolkit.md` |
+| PolarisAIDataInsightLoader | Integrations | /oss/python/integrations/providers/polaris_ai_datainsight | `integrations/polarisaidatainsightloader.md` |
+| PolarisAIDataInsightLoader | Integrations | /oss/python/integrations/document_loaders/polaris_ai_datainsight | `integrations/polarisaidatainsightloader.md` |
+| Polars DataFrame | Integrations | /oss/python/integrations/document_loaders/polars_dataframe | `integrations/polars-dataframe.md` |
+| Polygon IO Toolkit and Tools | Integrations | /oss/python/integrations/tools/polygon | `integrations/polygon-io-toolkit-and-tools.md` |
+| Portkey | Integrations | /oss/python/integrations/providers/portkey | `integrations/portkey.md` |
+| Postgres Embedding | Integrations | /oss/python/integrations/vectorstores/pgembedding | `integrations/postgres-embedding.md` |
+| Postgres Embedding | Integrations | /oss/python/integrations/providers/pg_embedding | `integrations/postgres-embedding.md` |
+| PowerBI Toolkit | Integrations | /oss/python/integrations/tools/powerbi | `integrations/powerbi-toolkit.md` |
+| Predibase | Integrations | /oss/python/integrations/providers/predibase | `integrations/predibase.md` |
+| Prediction Guard | Integrations | /oss/python/integrations/providers/predictionguard | `integrations/prediction-guard.md` |
+| PredictionGuard | Integrations | /oss/python/integrations/llms/predictionguard | `integrations/predictionguard.md` |
+| PredictionGuardEmbeddings | Integrations | /oss/python/integrations/text_embedding/predictionguard | `integrations/predictionguardembeddings.md` |
+| PremAI | Integrations | /oss/python/integrations/text_embedding/premai | `integrations/premai.md` |
+| PremAI | Integrations | /oss/python/integrations/providers/premai | `integrations/premai.md` |
+| Privy | Integrations | /oss/python/integrations/providers/privy | `integrations/privy.md` |
+| Privy | Integrations | /oss/python/integrations/tools/privy | `integrations/privy.md` |
+| Prolog | Integrations | /oss/python/integrations/tools/prolog_tool | `integrations/prolog.md` |
+| PromptLayer | Integrations | /oss/python/integrations/providers/promptlayer | `integrations/promptlayer.md` |
+| PromptLayer | Integrations | /oss/python/integrations/callbacks/promptlayer | `integrations/promptlayer.md` |
+| PromptLayer OpenAI | Integrations | /oss/python/integrations/llms/promptlayer_openai | `integrations/promptlayer-openai.md` |
+| PromptLayerChatOpenAI | Integrations | /oss/python/integrations/chat/promptlayer_chatopenai | `integrations/promptlayerchatopenai.md` |
+| Psychic | Integrations | /oss/python/integrations/providers/psychic | `integrations/psychic.md` |
+| Psychic | Integrations | /oss/python/integrations/document_loaders/psychic | `integrations/psychic.md` |
+| PubMed | Integrations | /oss/python/integrations/retrievers/pubmed | `integrations/pubmed.md` |
+| PubMed | Integrations | /oss/python/integrations/providers/pubmed | `integrations/pubmed.md` |
+| PubMed | Integrations | /oss/python/integrations/tools/pubmed | `integrations/pubmed.md` |
+| PubMed | Integrations | /oss/python/integrations/document_loaders/pubmed | `integrations/pubmed.md` |
+| PullMd Loader | Integrations | /oss/python/integrations/providers/pull-md | `integrations/pullmd-loader.md` |
+| PullMdLoader | Integrations | /oss/python/integrations/document_loaders/pull_md | `integrations/pullmdloader.md` |
+| PyMuPDF4LLM | Integrations | /oss/python/integrations/providers/pymupdf4llm | `integrations/pymupdf4llm.md` |
+| PyMuPDF4LLMLoader | Integrations | /oss/python/integrations/document_loaders/pymupdf4llm | `integrations/pymupdf4llmloader.md` |
+| PyMuPDFLoader | Integrations | /oss/python/integrations/document_loaders/pymupdf | `integrations/pymupdfloader.md` |
+| PyPDFDirectoryLoader | Integrations | /oss/python/integrations/document_loaders/pypdfdirectory | `integrations/pypdfdirectoryloader.md` |
+| PyPDFLoader | Integrations | /oss/python/integrations/document_loaders/pypdfloader | `integrations/pypdfloader.md` |
+| PyPDFium2Loader | Integrations | /oss/python/integrations/document_loaders/pypdfium2 | `integrations/pypdfium2loader.md` |
+| PySpark | Integrations | /oss/python/integrations/document_loaders/pyspark_dataframe | `integrations/pyspark.md` |
+| PygmalionAI | Integrations | /oss/python/integrations/providers/pygmalionai | `integrations/pygmalionai.md` |
+| Python REPL | Integrations | /oss/python/integrations/tools/python | `integrations/python-repl.md` |
+| Qdrant | Integrations | /oss/python/integrations/providers/qdrant | `integrations/qdrant.md` |
+| Qdrant | Integrations | /oss/python/integrations/vectorstores/qdrant | `integrations/qdrant.md` |
+| Qdrant Sparse Vector | Integrations | /oss/python/integrations/retrievers/qdrant-sparse | `integrations/qdrant-sparse-vector.md` |
+| QianfanChatEndpoint | Integrations | /oss/python/integrations/chat/baidu_qianfan_endpoint | `integrations/qianfanchatendpoint.md` |
+| Quip | Integrations | /oss/python/integrations/document_loaders/quip | `integrations/quip.md` |
+| RAGatouille | Integrations | /oss/python/integrations/retrievers/ragatouille | `integrations/ragatouille.md` |
+| RAGatouille | Integrations | /oss/python/integrations/providers/ragatouille | `integrations/ragatouille.md` |
+| RSS Feeds | Integrations | /oss/python/integrations/document_loaders/rss | `integrations/rss-feeds.md` |
+| RST | Integrations | /oss/python/integrations/document_loaders/rst | `integrations/rst.md` |
+| RSpace | Integrations | /oss/python/integrations/document_loaders/rspace | `integrations/rspace.md` |
+| Ray Serve | Integrations | /oss/python/integrations/providers/ray_serve | `integrations/ray-serve.md` |
+| RePhraseQuery | Integrations | /oss/python/integrations/retrievers/re_phrase | `integrations/rephrasequery.md` |
+| ReadTheDocs Documentation | Integrations | /oss/python/integrations/document_loaders/readthedocs_documentation | `integrations/readthedocs-documentation.md` |
+| Rebuff | Integrations | /oss/python/integrations/providers/rebuff | `integrations/rebuff.md` |
+| Recursive URL | Integrations | /oss/python/integrations/document_loaders/recursive_url | `integrations/recursive-url.md` |
+| Reddit | Integrations | /oss/python/integrations/providers/reddit | `integrations/reddit.md` |
+| Reddit | Integrations | /oss/python/integrations/document_loaders/reddit | `integrations/reddit.md` |
+| Reddit Search | Integrations | /oss/python/integrations/tools/reddit_search | `integrations/reddit-search.md` |
+| Redis | Integrations | /oss/python/integrations/providers/redis | `integrations/redis.md` |
+| RedisStore | Integrations | /oss/python/integrations/stores/redis | `integrations/redisstore.md` |
+| Relyt | Integrations | /oss/python/integrations/vectorstores/relyt | `integrations/relyt.md` |
+| Rememberizer | Integrations | /oss/python/integrations/retrievers/rememberizer | `integrations/rememberizer.md` |
+| Remembrall | Integrations | /oss/python/integrations/providers/remembrall | `integrations/remembrall.md` |
+| Replicate | Integrations | /oss/python/integrations/providers/replicate | `integrations/replicate.md` |
+| Requests Toolkit | Integrations | /oss/python/integrations/tools/requests | `integrations/requests-toolkit.md` |
+| Retrievers | Integrations | /oss/python/integrations/retrievers | `integrations/retrievers.md` |
+| Riza Code Interpreter | Integrations | /oss/python/integrations/tools/riza | `integrations/riza-code-interpreter.md` |
+| Roam | Integrations | /oss/python/integrations/providers/roam | `integrations/roam.md` |
+| Roam | Integrations | /oss/python/integrations/document_loaders/roam | `integrations/roam.md` |
+| Robocorp Toolkit | Integrations | /oss/python/integrations/tools/robocorp | `integrations/robocorp-toolkit.md` |
+| Rockset | Integrations | /oss/python/integrations/vectorstores/rockset | `integrations/rockset.md` |
+| Rockset | Integrations | /oss/python/integrations/providers/rockset | `integrations/rockset.md` |
+| Rockset | Integrations | /oss/python/integrations/document_loaders/rockset | `integrations/rockset.md` |
+| RunPod | Integrations | /oss/python/integrations/llms/runpod | `integrations/runpod.md` |
+| RunPod Chat Model | Integrations | /oss/python/integrations/chat/runpod | `integrations/runpod-chat-model.md` |
+| Runpod | Integrations | /oss/python/integrations/providers/runpod | `integrations/runpod.md` |
+| SAP | Integrations | /oss/python/integrations/providers/sap | `integrations/sap.md` |
+| SAP HANA Cloud Vector Engine | Integrations | /oss/python/integrations/vectorstores/sap_hanavector | `integrations/sap-hana-cloud-vector-engine.md` |
+| SEC filing | Integrations | /oss/python/integrations/retrievers/sec_filings | `integrations/sec-filing.md` |
+| SQLDatabase Toolkit | Integrations | /oss/python/integrations/tools/sql_database | `integrations/sqldatabase-toolkit.md` |
+| SQLServer | Integrations | /oss/python/integrations/vectorstores/sqlserver | `integrations/sqlserver.md` |
+| SQLite | Integrations | /oss/python/integrations/providers/sqlite | `integrations/sqlite.md` |
+| SQLite-VSS | Integrations | /oss/python/integrations/vectorstores/sqlitevss | `integrations/sqlite-vss.md` |
+| SQLiteVec | Integrations | /oss/python/integrations/vectorstores/sqlitevec | `integrations/sqlitevec.md` |
+| SVM | Integrations | /oss/python/integrations/retrievers/svm | `integrations/svm.md` |
+| SWI-Prolog | Integrations | /oss/python/integrations/providers/prolog | `integrations/swi-prolog.md` |
+| SageMaker | Integrations | /oss/python/integrations/text_embedding/sagemaker-endpoint | `integrations/sagemaker.md` |
+| SageMaker Tracking | Integrations | /oss/python/integrations/callbacks/sagemaker_tracking | `integrations/sagemaker-tracking.md` |
+| SageMakerEndpoint | Integrations | /oss/python/integrations/llms/sagemaker | `integrations/sagemakerendpoint.md` |
+| Salesforce | Integrations | /oss/python/integrations/providers/salesforce | `integrations/salesforce.md` |
+| Salesforce | Integrations | /oss/python/integrations/tools/salesforce | `integrations/salesforce.md` |
+| SambaNova | Integrations | /oss/python/integrations/providers/sambanova | `integrations/sambanova.md` |
+| SambaNovaEmbeddings | Integrations | /oss/python/integrations/text_embedding/sambanova | `integrations/sambanovaembeddings.md` |
+| ScaNN | Integrations | /oss/python/integrations/vectorstores/google_scann | `integrations/scann.md` |
+| SceneXplain | Integrations | /oss/python/integrations/tools/sceneXplain | `integrations/scenexplain.md` |
+| ScrapFly | Integrations | /oss/python/integrations/document_loaders/scrapfly | `integrations/scrapfly.md` |
+| ScrapeGraph | Integrations | /oss/python/integrations/tools/scrapegraph | `integrations/scrapegraph.md` |
+| ScrapeGraph AI | Integrations | /oss/python/integrations/providers/scrapegraph | `integrations/scrapegraph-ai.md` |
+| Scrapeless | Integrations | /oss/python/integrations/providers/scrapeless | `integrations/scrapeless.md` |
+| Scrapeless Crawl | Integrations | /oss/python/integrations/tools/scrapeless_crawl | `integrations/scrapeless-crawl.md` |
+| Scrapeless Scraping API | Integrations | /oss/python/integrations/tools/scrapeless_scraping_api | `integrations/scrapeless-scraping-api.md` |
+| Scrapeless Universal Scraping | Integrations | /oss/python/integrations/tools/scrapeless_universal_scraping | `integrations/scrapeless-universal-scraping.md` |
+| ScrapingAnt | Integrations | /oss/python/integrations/document_loaders/scrapingant | `integrations/scrapingant.md` |
+| SearchApi | Integrations | /oss/python/integrations/tools/searchapi | `integrations/searchapi.md` |
+| SearchApi | Integrations | /oss/python/integrations/providers/searchapi | `integrations/searchapi.md` |
+| SearxNG Search | Integrations | /oss/python/integrations/tools/searx_search | `integrations/searxng-search.md` |
+| SearxNG Search API | Integrations | /oss/python/integrations/providers/searx | `integrations/searxng-search-api.md` |
+| Self Hosted | Integrations | /oss/python/integrations/text_embedding/self-hosted | `integrations/self-hosted.md` |
+| Sema4 (fka Robocorp) | Integrations | /oss/python/integrations/providers/robocorp | `integrations/sema4-fka-robocorp.md` |
+| SemaDB | Integrations | /oss/python/integrations/vectorstores/semadb | `integrations/semadb.md` |
+| SemaDB | Integrations | /oss/python/integrations/providers/semadb | `integrations/semadb.md` |
+| Semantic Scholar API Tool | Integrations | /oss/python/integrations/tools/semanticscholar | `integrations/semantic-scholar-api-tool.md` |
+| Sentence Transformers on Hugging Face | Integrations | /oss/python/integrations/text_embedding/sentence_transformers | `integrations/sentence-transformers-on-hugging-face.md` |
+| SerpAPI | Integrations | /oss/python/integrations/tools/serpapi | `integrations/serpapi.md` |
+| SerpAPI | Integrations | /oss/python/integrations/providers/serpapi | `integrations/serpapi.md` |
+| Serper | Integrations | /oss/python/integrations/providers/google_serper | `integrations/serper.md` |
+| Shale Protocol | Integrations | /oss/python/integrations/providers/shaleprotocol | `integrations/shale-protocol.md` |
+| Shell (bash) | Integrations | /oss/python/integrations/tools/bash | `integrations/shell-bash.md` |
+| SingleStore Integration | Integrations | /oss/python/integrations/providers/singlestore | `integrations/singlestore-integration.md` |
+| SingleStoreLoader | Integrations | /oss/python/integrations/document_loaders/singlestore | `integrations/singlestoreloader.md` |
+| SingleStoreVectorStore | Integrations | /oss/python/integrations/vectorstores/singlestore | `integrations/singlestorevectorstore.md` |
+| SitemapLoader | Integrations | /oss/python/integrations/document_loaders/sitemap | `integrations/sitemaploader.md` |
+| Slack | Integrations | /oss/python/integrations/providers/slack | `integrations/slack.md` |
+| Slack | Integrations | /oss/python/integrations/document_loaders/slack | `integrations/slack.md` |
+| Slack | Integrations | /oss/python/integrations/chat_loaders/slack | `integrations/slack.md` |
+| Slack Toolkit | Integrations | /oss/python/integrations/tools/slack | `integrations/slack-toolkit.md` |
+| Smabbler | Integrations | /oss/python/integrations/providers/galaxia | `integrations/smabbler.md` |
+| Snowflake | Integrations | /oss/python/integrations/providers/snowflake | `integrations/snowflake.md` |
+| Snowflake | Integrations | /oss/python/integrations/document_loaders/snowflake | `integrations/snowflake.md` |
+| Snowflake Cortex | Integrations | /oss/python/integrations/chat/snowflake | `integrations/snowflake-cortex.md` |
+| Solar | Integrations | /oss/python/integrations/text_embedding/solar | `integrations/solar.md` |
+| Source Code | Integrations | /oss/python/integrations/document_loaders/source_code | `integrations/source-code.md` |
+| SpaCy | Integrations | /oss/python/integrations/text_embedding/spacy_embedding | `integrations/spacy.md` |
+| Spark | Integrations | /oss/python/integrations/providers/spark | `integrations/spark.md` |
+| Spark SQL Toolkit | Integrations | /oss/python/integrations/tools/spark_sql | `integrations/spark-sql-toolkit.md` |
+| SparkLLM | Integrations | /oss/python/integrations/providers/sparkllm | `integrations/sparkllm.md` |
+| SparkLLM | Integrations | /oss/python/integrations/llms/sparkllm | `integrations/sparkllm.md` |
+| SparkLLM Chat | Integrations | /oss/python/integrations/chat/sparkllm | `integrations/sparkllm-chat.md` |
+| SparkLLM Text Embeddings | Integrations | /oss/python/integrations/text_embedding/sparkllm | `integrations/sparkllm-text-embeddings.md` |
+| Spider | Integrations | /oss/python/integrations/document_loaders/spider | `integrations/spider.md` |
+| Split HTML | Integrations | /oss/python/integrations/splitters/split_html | `integrations/split-html.md` |
+| Split JSON data | Integrations | /oss/python/integrations/splitters/recursive_json_splitter | `integrations/split-json-data.md` |
+| Split markdown | Integrations | /oss/python/integrations/splitters/markdown_header_metadata_splitter | `integrations/split-markdown.md` |
+| Splitting by character | Integrations | /oss/python/integrations/splitters/character_text_splitter | `integrations/splitting-by-character.md` |
+| Splitting by token | Integrations | /oss/python/integrations/splitters/split_by_token | `integrations/splitting-by-token.md` |
+| Splitting code | Integrations | /oss/python/integrations/splitters/code_splitter | `integrations/splitting-code.md` |
+| Splitting recursively | Integrations | /oss/python/integrations/splitters/recursive_text_splitter | `integrations/splitting-recursively.md` |
+| Spreedly | Integrations | /oss/python/integrations/providers/spreedly | `integrations/spreedly.md` |
+| Spreedly | Integrations | /oss/python/integrations/document_loaders/spreedly | `integrations/spreedly.md` |
+| Stack Exchange | Integrations | /oss/python/integrations/providers/stackexchange | `integrations/stack-exchange.md` |
+| StackExchange | Integrations | /oss/python/integrations/tools/stackexchange | `integrations/stackexchange.md` |
+| StarRocks | Integrations | /oss/python/integrations/vectorstores/starrocks | `integrations/starrocks.md` |
+| StarRocks | Integrations | /oss/python/integrations/providers/starrocks | `integrations/starrocks.md` |
+| Steam Toolkit | Integrations | /oss/python/integrations/tools/steam | `integrations/steam-toolkit.md` |
+| StochasticAI | Integrations | /oss/python/integrations/providers/stochasticai | `integrations/stochasticai.md` |
+| Streamlit | Integrations | /oss/python/integrations/providers/streamlit | `integrations/streamlit.md` |
+| Streamlit | Integrations | /oss/python/integrations/callbacks/streamlit | `integrations/streamlit.md` |
+| Stripe | Integrations | /oss/python/integrations/providers/stripe | `integrations/stripe.md` |
+| Stripe | Integrations | /oss/python/integrations/document_loaders/stripe | `integrations/stripe.md` |
+| StripeAgentToolkit | Integrations | /oss/python/integrations/tools/stripe | `integrations/stripeagenttoolkit.md` |
+| Subtitle | Integrations | /oss/python/integrations/document_loaders/subtitle | `integrations/subtitle.md` |
+| Supabase (Postgres) | Integrations | /oss/python/integrations/vectorstores/supabase | `integrations/supabase-postgres.md` |
+| Supabase (Postgres) | Integrations | /oss/python/integrations/providers/supabase | `integrations/supabase-postgres.md` |
+| SurrealDB | Integrations | /oss/python/integrations/providers/surrealdb | `integrations/surrealdb.md` |
+| SurrealDB | Integrations | /oss/python/integrations/document_loaders/surrealdb | `integrations/surrealdb.md` |
+| SurrealDBVectorStore | Integrations | /oss/python/integrations/vectorstores/surrealdb | `integrations/surrealdbvectorstore.md` |
+| TF-IDF | Integrations | /oss/python/integrations/retrievers/tf_idf | `integrations/tf-idf.md` |
+| TOML | Integrations | /oss/python/integrations/document_loaders/toml | `integrations/toml.md` |
+| TSV | Integrations | /oss/python/integrations/document_loaders/tsv | `integrations/tsv.md` |
+| Tableau | Integrations | /oss/python/integrations/providers/tableau | `integrations/tableau.md` |
+| Tableau | Integrations | /oss/python/integrations/tools/tableau | `integrations/tableau.md` |
+| Tablestore | Integrations | /oss/python/integrations/vectorstores/tablestore | `integrations/tablestore.md` |
+| Taiga | Integrations | /oss/python/integrations/providers/taiga | `integrations/taiga.md` |
+| Taiga | Integrations | /oss/python/integrations/tools/taiga | `integrations/taiga.md` |
+| Tair | Integrations | /oss/python/integrations/vectorstores/tair | `integrations/tair.md` |
+| Tair | Integrations | /oss/python/integrations/providers/tair | `integrations/tair.md` |
+| Tavily | Integrations | /oss/python/integrations/providers/tavily | `integrations/tavily.md` |
+| Tavily Extract | Integrations | /oss/python/integrations/tools/tavily_extract | `integrations/tavily-extract.md` |
+| Tavily Search | Integrations | /oss/python/integrations/tools/tavily_search | `integrations/tavily-search.md` |
+| TavilySearchAPI | Integrations | /oss/python/integrations/retrievers/tavily | `integrations/tavilysearchapi.md` |
+| Telegram | Integrations | /oss/python/integrations/providers/telegram | `integrations/telegram.md` |
+| Telegram | Integrations | /oss/python/integrations/document_loaders/telegram | `integrations/telegram.md` |
+| Tencent | Integrations | /oss/python/integrations/providers/tencent | `integrations/tencent.md` |
+| Tencent COS Directory | Integrations | /oss/python/integrations/document_loaders/tencent_cos_directory | `integrations/tencent-cos-directory.md` |
+| Tencent COS File | Integrations | /oss/python/integrations/document_loaders/tencent_cos_file | `integrations/tencent-cos-file.md` |
+| Tencent Cloud VectorDB | Integrations | /oss/python/integrations/vectorstores/tencentvectordb | `integrations/tencent-cloud-vectordb.md` |
+| Tencent Hunyuan | Integrations | /oss/python/integrations/chat/tencent_hunyuan | `integrations/tencent-hunyuan.md` |
+| TensorFlow Datasets | Integrations | /oss/python/integrations/providers/tensorflow_datasets | `integrations/tensorflow-datasets.md` |
+| TensorFlow Datasets | Integrations | /oss/python/integrations/document_loaders/tensorflow_datasets | `integrations/tensorflow-datasets.md` |
+| TensorFlow Hub | Integrations | /oss/python/integrations/text_embedding/tensorflowhub | `integrations/tensorflow-hub.md` |
+| Tensorlake | Integrations | /oss/python/integrations/providers/tensorlake | `integrations/tensorlake.md` |
+| TeradataVectorStore | Integrations | /oss/python/integrations/vectorstores/teradata | `integrations/teradatavectorstore.md` |
+| Text Embeddings Inference | Integrations | /oss/python/integrations/text_embedding/text_embeddings_inference | `integrations/text-embeddings-inference.md` |
+| Text splitters | Integrations | /oss/python/integrations/splitters | `integrations/text-splitters.md` |
+| TextEmbed - Embedding Inference Server | Integrations | /oss/python/integrations/text_embedding/textembed | `integrations/textembed-embedding-inference-server.md` |
+| ThirdAI NeuralDB | Integrations | /oss/python/integrations/vectorstores/thirdai_neuraldb | `integrations/thirdai-neuraldb.md` |
+| TiDB | Integrations | /oss/python/integrations/providers/tidb | `integrations/tidb.md` |
+| TiDB | Integrations | /oss/python/integrations/document_loaders/tidb | `integrations/tidb.md` |
+| TiDB Vector | Integrations | /oss/python/integrations/vectorstores/tidb_vector | `integrations/tidb-vector.md` |
+| TigerGraph | Integrations | /oss/python/integrations/providers/tigergraph | `integrations/tigergraph.md` |
+| TigerGraph | Integrations | /oss/python/integrations/graphs/tigergraph | `integrations/tigergraph.md` |
+| Tigris | Integrations | /oss/python/integrations/vectorstores/tigris | `integrations/tigris.md` |
+| Tigris | Integrations | /oss/python/integrations/providers/tigris | `integrations/tigris.md` |
+| TileDB | Integrations | /oss/python/integrations/vectorstores/tiledb | `integrations/tiledb.md` |
+| Tilores | Integrations | /oss/python/integrations/providers/tilores | `integrations/tilores.md` |
+| Tilores | Integrations | /oss/python/integrations/tools/tilores | `integrations/tilores.md` |
+| Timbr | Integrations | /oss/python/integrations/providers/timbr | `integrations/timbr.md` |
+| Timbr | Integrations | /oss/python/integrations/graphs/timbr | `integrations/timbr.md` |
+| Timescale Vector (Postgres) | Integrations | /oss/python/integrations/vectorstores/timescalevector | `integrations/timescale-vector-postgres.md` |
+| Titan Takeoff | Integrations | /oss/python/integrations/text_embedding/titan_takeoff | `integrations/titan-takeoff.md` |
+| Together AI | Integrations | /oss/python/integrations/providers/together | `integrations/together-ai.md` |
+| TogetherEmbeddings | Integrations | /oss/python/integrations/text_embedding/together | `integrations/togetherembeddings.md` |
+| Tongyi Qwen | Integrations | /oss/python/integrations/llms/tongyi | `integrations/tongyi-qwen.md` |
+| Tools and toolkits | Integrations | /oss/python/integrations/tools | `integrations/tools-and-toolkits.md` |
+| Transwarp | Integrations | /oss/python/integrations/providers/transwarp | `integrations/transwarp.md` |
+| Trello | Integrations | /oss/python/integrations/providers/trello | `integrations/trello.md` |
+| Trello | Integrations | /oss/python/integrations/document_loaders/trello | `integrations/trello.md` |
+| TruLens | Integrations | /oss/python/integrations/providers/trulens | `integrations/trulens.md` |
+| Trubrics | Integrations | /oss/python/integrations/providers/trubrics | `integrations/trubrics.md` |
+| Trubrics | Integrations | /oss/python/integrations/callbacks/trubrics | `integrations/trubrics.md` |
+| TrueFoundry | Integrations | /oss/python/integrations/providers/truefoundry | `integrations/truefoundry.md` |
+| Twilio | Integrations | /oss/python/integrations/tools/twilio | `integrations/twilio.md` |
+| Twitter | Integrations | /oss/python/integrations/providers/twitter | `integrations/twitter.md` |
+| Twitter | Integrations | /oss/python/integrations/document_loaders/twitter | `integrations/twitter.md` |
+| Twitter (via Apify) | Integrations | /oss/python/integrations/chat_loaders/twitter | `integrations/twitter-via-apify.md` |
+| Typesense | Integrations | /oss/python/integrations/vectorstores/typesense | `integrations/typesense.md` |
+| Typesense | Integrations | /oss/python/integrations/providers/typesense | `integrations/typesense.md` |
+| URL | Integrations | /oss/python/integrations/document_loaders/url | `integrations/url.md` |
+| USearch | Integrations | /oss/python/integrations/vectorstores/usearch | `integrations/usearch.md` |
+| USearch | Integrations | /oss/python/integrations/providers/usearch | `integrations/usearch.md` |
+| UnDatasIO | Integrations | /oss/python/integrations/providers/undatasio | `integrations/undatasio.md` |
+| UnDatasIO | Integrations | /oss/python/integrations/document_loaders/undatasio | `integrations/undatasio.md` |
+| Unstructured | Integrations | /oss/python/integrations/providers/unstructured | `integrations/unstructured.md` |
+| Unstructured | Integrations | /oss/python/integrations/document_loaders/unstructured_file | `integrations/unstructured.md` |
+| UnstructuredMarkdownLoader | Integrations | /oss/python/integrations/document_loaders/unstructured_markdown | `integrations/unstructuredmarkdownloader.md` |
+| UnstructuredPDFLoader | Integrations | /oss/python/integrations/document_loaders/unstructured_pdfloader | `integrations/unstructuredpdfloader.md` |
+| UnstructuredXMLLoader | Integrations | /oss/python/integrations/document_loaders/xml | `integrations/unstructuredxmlloader.md` |
+| UpTrain | Integrations | /oss/python/integrations/providers/uptrain | `integrations/uptrain.md` |
+| UpTrain | Integrations | /oss/python/integrations/callbacks/uptrain | `integrations/uptrain.md` |
+| Upstage | Integrations | /oss/python/integrations/providers/upstage | `integrations/upstage.md` |
+| Upstage | Integrations | /oss/python/integrations/document_loaders/upstage | `integrations/upstage.md` |
+| Upstage Groundedness Check | Integrations | /oss/python/integrations/tools/upstage_groundedness_check | `integrations/upstage-groundedness-check.md` |
+| UpstageEmbeddings | Integrations | /oss/python/integrations/text_embedding/upstage | `integrations/upstageembeddings.md` |
+| Upstash | Integrations | /oss/python/integrations/providers/upstash | `integrations/upstash.md` |
+| Upstash Vector | Integrations | /oss/python/integrations/vectorstores/upstash | `integrations/upstash-vector.md` |
+| UpstashRedisByteStore | Integrations | /oss/python/integrations/stores/upstash_redis | `integrations/upstashredisbytestore.md` |
+| VDMS | Integrations | /oss/python/integrations/providers/vdms | `integrations/vdms.md` |
+| Vald | Integrations | /oss/python/integrations/vectorstores/vald | `integrations/vald.md` |
+| Valthera | Integrations | /oss/python/integrations/providers/valthera | `integrations/valthera.md` |
+| Valthera | Integrations | /oss/python/integrations/tools/valthera | `integrations/valthera.md` |
+| Valyu Deep Search | Integrations | /oss/python/integrations/providers/valyu | `integrations/valyu-deep-search.md` |
+| ValyuContext | Integrations | /oss/python/integrations/retrievers/valyu | `integrations/valyucontext.md` |
+| ValyuContext | Integrations | /oss/python/integrations/tools/valyu_search | `integrations/valyucontext.md` |
+| Vearch | Integrations | /oss/python/integrations/vectorstores/vearch | `integrations/vearch.md` |
+| Vearch | Integrations | /oss/python/integrations/providers/vearch | `integrations/vearch.md` |
+| Vectara | Integrations | /oss/python/integrations/vectorstores/vectara | `integrations/vectara.md` |
+| Vectara | Integrations | /oss/python/integrations/providers/vectara | `integrations/vectara.md` |
+| Vectara | Integrations | /oss/python/integrations/tools/vectara | `integrations/vectara.md` |
+| Vector stores | Integrations | /oss/python/integrations/vectorstores | `integrations/vector-stores.md` |
+| Vectorize | Integrations | /oss/python/integrations/providers/vectorize | `integrations/vectorize.md` |
+| VectorizeRetriever | Integrations | /oss/python/integrations/retrievers/vectorize | `integrations/vectorizeretriever.md` |
+| Vespa | Integrations | /oss/python/integrations/retrievers/vespa | `integrations/vespa.md` |
+| Vespa | Integrations | /oss/python/integrations/vectorstores/vespa | `integrations/vespa.md` |
+| Vespa | Integrations | /oss/python/integrations/providers/vespa | `integrations/vespa.md` |
+| Volc Engine | Integrations | /oss/python/integrations/text_embedding/volcengine | `integrations/volc-engine.md` |
+| VolcEngineMaasChat | Integrations | /oss/python/integrations/chat/volcengine_maas | `integrations/volcenginemaaschat.md` |
+| Voyage AI | Integrations | /oss/python/integrations/text_embedding/voyageai | `integrations/voyage-ai.md` |
+| VoyageAI | Integrations | /oss/python/integrations/providers/voyageai | `integrations/voyageai.md` |
+| VoyageAI Reranker | Integrations | /oss/python/integrations/document_transformers/voyageai-reranker | `integrations/voyageai-reranker.md` |
+| Vsdx | Integrations | /oss/python/integrations/document_loaders/vsdx | `integrations/vsdx.md` |
+| WRITER | Integrations | /oss/python/integrations/providers/writer | `integrations/writer.md` |
+| WRITER PDF Parser | Integrations | /oss/python/integrations/document_loaders/parsers/writer_pdf_parser | `integrations/writer-pdf-parser.md` |
+| WRITER Tools | Integrations | /oss/python/integrations/tools/writer | `integrations/writer-tools.md` |
+| WatsonxEmbeddings | Integrations | /oss/python/integrations/text_embedding/ibm_watsonx | `integrations/watsonxembeddings.md` |
+| Weather | Integrations | /oss/python/integrations/providers/weather | `integrations/weather.md` |
+| Weather | Integrations | /oss/python/integrations/document_loaders/weather | `integrations/weather.md` |
+| Weaviate | Integrations | /oss/python/integrations/vectorstores/weaviate | `integrations/weaviate.md` |
+| Weaviate | Integrations | /oss/python/integrations/providers/weaviate | `integrations/weaviate.md` |
+| WebBaseLoader | Integrations | /oss/python/integrations/document_loaders/web_base | `integrations/webbaseloader.md` |
+| Weights & Biases | Integrations | /oss/python/integrations/providers/wandb | `integrations/weights-biases.md` |
+| Weights & Biases tracing | Integrations | /oss/python/integrations/providers/wandb_tracing | `integrations/weights-biases-tracing.md` |
+| Weights & Biases tracking | Integrations | /oss/python/integrations/providers/wandb_tracking | `integrations/weights-biases-tracking.md` |
+| WhatsApp | Integrations | /oss/python/integrations/providers/whatsapp | `integrations/whatsapp.md` |
+| WhatsApp Chat | Integrations | /oss/python/integrations/document_loaders/whatsapp_chat | `integrations/whatsapp-chat.md` |
+| WhyLabs | Integrations | /oss/python/integrations/providers/whylabs_profiling | `integrations/whylabs.md` |
+| Wikidata | Integrations | /oss/python/integrations/tools/wikidata | `integrations/wikidata.md` |
+| Wikipedia | Integrations | /oss/python/integrations/retrievers/wikipedia | `integrations/wikipedia.md` |
+| Wikipedia | Integrations | /oss/python/integrations/providers/wikipedia | `integrations/wikipedia.md` |
+| Wikipedia | Integrations | /oss/python/integrations/tools/wikipedia | `integrations/wikipedia.md` |
+| Wikipedia | Integrations | /oss/python/integrations/document_loaders/wikipedia | `integrations/wikipedia.md` |
+| Wolfram Alpha | Integrations | /oss/python/integrations/providers/wolfram_alpha | `integrations/wolfram-alpha.md` |
+| Wolfram Alpha | Integrations | /oss/python/integrations/tools/wolfram_alpha | `integrations/wolfram-alpha.md` |
+| Xata | Integrations | /oss/python/integrations/vectorstores/xata | `integrations/xata.md` |
+| Xata | Integrations | /oss/python/integrations/providers/xata | `integrations/xata.md` |
+| Xorbits Inference (Xinference) | Integrations | /oss/python/integrations/providers/xinference | `integrations/xorbits-inference-xinference.md` |
+| Xorbits Inference (Xinference) | Integrations | /oss/python/integrations/llms/xinference | `integrations/xorbits-inference-xinference.md` |
+| Xorbits Pandas DataFrame | Integrations | /oss/python/integrations/document_loaders/xorbits | `integrations/xorbits-pandas-dataframe.md` |
+| Xorbits inference (Xinference) | Integrations | /oss/python/integrations/text_embedding/xinference | `integrations/xorbits-inference-xinference.md` |
+| YDB | Integrations | /oss/python/integrations/vectorstores/ydb | `integrations/ydb.md` |
+| YDB | Integrations | /oss/python/integrations/providers/ydb | `integrations/ydb.md` |
+| Yahoo | Integrations | /oss/python/integrations/providers/yahoo | `integrations/yahoo.md` |
+| Yahoo Finance News | Integrations | /oss/python/integrations/tools/yahoo_finance_news | `integrations/yahoo-finance-news.md` |
+| Yandex | Integrations | /oss/python/integrations/providers/yandex | `integrations/yandex.md` |
+| YandexGPT | Integrations | /oss/python/integrations/text_embedding/yandex | `integrations/yandexgpt.md` |
+| YandexGPT | Integrations | /oss/python/integrations/llms/yandex | `integrations/yandexgpt.md` |
+| Yeager.ai | Integrations | /oss/python/integrations/providers/yeagerai | `integrations/yeager-ai.md` |
+| Yellowbrick | Integrations | /oss/python/integrations/vectorstores/yellowbrick | `integrations/yellowbrick.md` |
+| Yellowbrick | Integrations | /oss/python/integrations/providers/yellowbrick | `integrations/yellowbrick.md` |
+| Yi | Integrations | /oss/python/integrations/llms/yi | `integrations/yi.md` |
+| You | Integrations | /oss/python/integrations/providers/you | `integrations/you.md` |
+| You.com | Integrations | /oss/python/integrations/retrievers/you-retriever | `integrations/you-com.md` |
+| You.com Search | Integrations | /oss/python/integrations/tools/you | `integrations/you-com-search.md` |
+| YouTube | Integrations | /oss/python/integrations/tools/youtube | `integrations/youtube.md` |
+| YouTube | Integrations | /oss/python/integrations/providers/youtube | `integrations/youtube.md` |
+| YouTube audio | Integrations | /oss/python/integrations/document_loaders/youtube_audio | `integrations/youtube-audio.md` |
+| YouTube transcripts | Integrations | /oss/python/integrations/document_loaders/youtube_transcript | `integrations/youtube-transcripts.md` |
+| YoutubeLoaderDL | Integrations | /oss/python/integrations/document_loaders/yt_dlp | `integrations/youtubeloaderdl.md` |
+| Yuan2.0 | Integrations | /oss/python/integrations/chat/yuan2 | `integrations/yuan2-0.md` |
+| Yuan2.0 | Integrations | /oss/python/integrations/llms/yuan2 | `integrations/yuan2-0.md` |
+| Yuque | Integrations | /oss/python/integrations/document_loaders/yuque | `integrations/yuque.md` |
+| ZHIPU AI | Integrations | /oss/python/integrations/chat/zhipuai | `integrations/zhipu-ai.md` |
+| Zapier Natural Language Actions | Integrations | /oss/python/integrations/tools/zapier | `integrations/zapier-natural-language-actions.md` |
+| ZenGuard AI | Integrations | /oss/python/integrations/tools/zenguard | `integrations/zenguard-ai.md` |
+| Zep | Integrations | /oss/python/integrations/vectorstores/zep | `integrations/zep.md` |
+| Zep | Integrations | /oss/python/integrations/providers/zep | `integrations/zep.md` |
+| Zep Cloud | Integrations | /oss/python/integrations/retrievers/zep_cloud_memorystore | `integrations/zep-cloud.md` |
+| Zep Cloud | Integrations | /oss/python/integrations/vectorstores/zep_cloud | `integrations/zep-cloud.md` |
+| Zep Open Source | Integrations | /oss/python/integrations/retrievers/zep_memorystore | `integrations/zep-open-source.md` |
+| ZeroxPDFLoader | Integrations | /oss/python/integrations/document_loaders/zeroxpdfloader | `integrations/zeroxpdfloader.md` |
+| ZeusDB | Integrations | /oss/python/integrations/vectorstores/zeusdb | `integrations/zeusdb.md` |
+| ZeusDB | Integrations | /oss/python/integrations/providers/zeusdb | `integrations/zeusdb.md` |
+| Zhipu AI | Integrations | /oss/python/integrations/providers/zhipuai | `integrations/zhipu-ai.md` |
+| ZhipuAIEmbeddings | Integrations | /oss/python/integrations/text_embedding/zhipuai | `integrations/zhipuaiembeddings.md` |
+| Zilliz | Integrations | /oss/python/integrations/vectorstores/zilliz | `integrations/zilliz.md` |
+| Zilliz | Integrations | /oss/python/integrations/providers/zilliz | `integrations/zilliz.md` |
+| Zotero | Integrations | /oss/python/integrations/retrievers/zotero | `integrations/zotero.md` |
+| Zotero | Integrations | /oss/python/integrations/providers/zotero | `integrations/zotero.md` |
+| acreom | Integrations | /oss/python/integrations/document_loaders/acreom | `integrations/acreom.md` |
+| bookend.ai | Integrations | /oss/python/integrations/providers/bookendai | `integrations/bookend-ai.md` |
+| iFixit | Integrations | /oss/python/integrations/providers/ifixit | `integrations/ifixit.md` |
+| iFixit | Integrations | /oss/python/integrations/document_loaders/ifixit | `integrations/ifixit.md` |
+| iFlytek | Integrations | /oss/python/integrations/providers/iflytek | `integrations/iflytek.md` |
+| iMessage | Integrations | /oss/python/integrations/chat_loaders/imessage | `integrations/imessage.md` |
+| kNN | Integrations | /oss/python/integrations/retrievers/knn | `integrations/knn.md` |
+| lakeFS | Integrations | /oss/python/integrations/providers/lakefs | `integrations/lakefs.md` |
+| lakeFS | Integrations | /oss/python/integrations/document_loaders/lakefs | `integrations/lakefs.md` |
+| mhtml | Integrations | /oss/python/integrations/document_loaders/mhtml | `integrations/mhtml.md` |
+| null | Integrations | /oss/python/integrations/document_loaders | `integrations/null.md` |
+| openGauss VectorStore | Integrations | /oss/python/integrations/vectorstores/opengauss | `integrations/opengauss-vectorstore.md` |
+| rank_bm25 | Integrations | /oss/python/integrations/providers/rank_bm25 | `integrations/rank-bm25.md` |
+| scikit-learn | Integrations | /oss/python/integrations/vectorstores/sklearn | `integrations/scikit-learn.md` |
+| scikit-learn | Integrations | /oss/python/integrations/providers/sklearn | `integrations/scikit-learn.md` |
+| spaCy | Integrations | /oss/python/integrations/providers/spacy | `integrations/spacy.md` |
+| vLLM Chat | Integrations | /oss/python/integrations/chat/vllm | `integrations/vllm-chat.md` |
+| viking DB | Integrations | /oss/python/integrations/vectorstores/vikingdb | `integrations/viking-db.md` |
+| vlite | Integrations | /oss/python/integrations/vectorstores/vlite | `integrations/vlite.md` |
+| vlite | Integrations | /oss/python/integrations/providers/vlite | `integrations/vlite.md` |
+| xAI | Integrations | /oss/python/integrations/providers/xai | `integrations/xai.md` |
+| Agent Chat UI | LangChain | /oss/python/langchain/ui | `langchain/agent-chat-ui.md` |
+| Agents | LangChain | /oss/python/langchain/agents | `langchain/agents.md` |
+| Build a RAG agent with LangChain | LangChain | /oss/python/langchain/rag | `langchain/build-a-rag-agent-with-langchain.md` |
+| Build a SQL agent | LangChain | /oss/python/langchain/sql-agent | `langchain/build-a-sql-agent.md` |
+| Build a semantic search engine with LangChain | LangChain | /oss/python/langchain/knowledge-base | `langchain/build-a-semantic-search-engine-with-langchain.md` |
+| Build a supervisor agent | LangChain | /oss/python/langchain/supervisor | `langchain/build-a-supervisor-agent.md` |
+| Built-in middleware | LangChain | /oss/python/langchain/middleware/built-in | `langchain/built-in-middleware.md` |
+| Component architecture | LangChain | /oss/python/langchain/component-architecture | `langchain/component-architecture.md` |
+| Context engineering in agents | LangChain | /oss/python/langchain/context-engineering | `langchain/context-engineering-in-agents.md` |
+| Custom middleware | LangChain | /oss/python/langchain/middleware/custom | `langchain/custom-middleware.md` |
+| Get help | LangChain | /oss/python/langchain/get-help | `langchain/get-help.md` |
+| Guardrails | LangChain | /oss/python/langchain/guardrails | `langchain/guardrails.md` |
+| Human-in-the-loop | LangChain | /oss/python/langchain/human-in-the-loop | `langchain/human-in-the-loop.md` |
+| Install LangChain | LangChain | /oss/python/langchain/install | `langchain/install-langchain.md` |
+| LangChain overview | LangChain | /oss/python/langchain/overview | `langchain/langchain-overview.md` |
+| LangSmith Deployment | LangChain | /oss/python/langchain/deploy | `langchain/langsmith-deployment.md` |
+| LangSmith Observability | LangChain | /oss/python/langchain/observability | `langchain/langsmith-observability.md` |
+| LangSmith Studio | LangChain | /oss/python/langchain/studio | `langchain/langsmith-studio.md` |
+| Long-term memory | LangChain | /oss/python/langchain/long-term-memory | `langchain/long-term-memory.md` |
+| Messages | LangChain | /oss/python/langchain/messages | `langchain/messages.md` |
+| Model Context Protocol (MCP) | LangChain | /oss/python/langchain/mcp | `langchain/model-context-protocol-mcp.md` |
+| Models | LangChain | /oss/python/langchain/models | `langchain/models.md` |
+| Multi-agent | LangChain | /oss/python/langchain/multi-agent | `langchain/multi-agent.md` |
+| Overview | LangChain | /oss/python/langchain/middleware/overview | `langchain/overview.md` |
+| Philosophy | LangChain | /oss/python/langchain/philosophy | `langchain/philosophy.md` |
+| Quickstart | LangChain | /oss/python/langchain/quickstart | `langchain/quickstart.md` |
+| Retrieval | LangChain | /oss/python/langchain/retrieval | `langchain/retrieval.md` |
+| Runtime | LangChain | /oss/python/langchain/runtime | `langchain/runtime.md` |
+| Short-term memory | LangChain | /oss/python/langchain/short-term-memory | `langchain/short-term-memory.md` |
+| Streaming | LangChain | /oss/python/langchain/streaming | `langchain/streaming.md` |
+| Structured output | LangChain | /oss/python/langchain/structured-output | `langchain/structured-output.md` |
+| Test | LangChain | /oss/python/langchain/test | `langchain/test.md` |
+| Tools | LangChain | /oss/python/langchain/tools | `langchain/tools.md` |
+| Agent Chat UI | LangGraph | /oss/python/langgraph/ui | `langgraph/agent-chat-ui.md` |
+| Application structure | LangGraph | /oss/python/langgraph/application-structure | `langgraph/application-structure.md` |
+| Choosing between Graph and Functional APIs | LangGraph | /oss/python/langgraph/choosing-apis | `langgraph/choosing-between-graph-and-functional-apis.md` |
+| Durable execution | LangGraph | /oss/python/langgraph/durable-execution | `langgraph/durable-execution.md` |
+| Functional API overview | LangGraph | /oss/python/langgraph/functional-api | `langgraph/functional-api-overview.md` |
+| Graph API overview | LangGraph | /oss/python/langgraph/graph-api | `langgraph/graph-api-overview.md` |
+| Install LangGraph | LangGraph | /oss/python/langgraph/install | `langgraph/install-langgraph.md` |
+| Interrupts | LangGraph | /oss/python/langgraph/interrupts | `langgraph/interrupts.md` |
+| LangGraph overview | LangGraph | /oss/python/langgraph/overview | `langgraph/langgraph-overview.md` |
+| LangGraph runtime | LangGraph | /oss/python/langgraph/pregel | `langgraph/langgraph-runtime.md` |
+| LangSmith Deployment | LangGraph | /oss/python/langgraph/deploy | `langgraph/langsmith-deployment.md` |
+| LangSmith Observability | LangGraph | /oss/python/langgraph/observability | `langgraph/langsmith-observability.md` |
+| LangSmith Studio | LangGraph | /oss/python/langgraph/studio | `langgraph/langsmith-studio.md` |
+| Memory | LangGraph | /oss/python/langgraph/add-memory | `langgraph/memory.md` |
+| Persistence | LangGraph | /oss/python/langgraph/persistence | `langgraph/persistence.md` |
+| Quickstart | LangGraph | /oss/python/langgraph/quickstart | `langgraph/quickstart.md` |
+| Run a local server | LangGraph | /oss/python/langgraph/local-server | `langgraph/run-a-local-server.md` |
+| Streaming | LangGraph | /oss/python/langgraph/streaming | `langgraph/streaming.md` |
+| Subgraphs | LangGraph | /oss/python/langgraph/use-subgraphs | `langgraph/subgraphs.md` |
+| Test | LangGraph | /oss/python/langgraph/test | `langgraph/test.md` |
+| Thinking in LangGraph | LangGraph | /oss/python/langgraph/thinking-in-langgraph | `langgraph/thinking-in-langgraph.md` |
+| Use the functional API | LangGraph | /oss/python/langgraph/use-functional-api | `langgraph/use-the-functional-api.md` |
+| Use the graph API | LangGraph | /oss/python/langgraph/use-graph-api | `langgraph/use-the-graph-api.md` |
+| Use time-travel | LangGraph | /oss/python/langgraph/use-time-travel | `langgraph/use-time-travel.md` |
+| Workflows and agents | LangGraph | /oss/python/langgraph/workflows-agents | `langgraph/workflows-and-agents.md` |
+| Learn | Learn | /oss/python/learn | `learn/learn.md` |
+| Reference | Reference | /oss/python/reference/overview | `reference/reference.md` |

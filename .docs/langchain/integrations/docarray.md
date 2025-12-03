@@ -1,0 +1,58 @@
+# DocArray
+
+> [DocArray](https://docarray.jina.ai/) is a library for nested, unstructured, multimodal data in transit,
+> including text, image, audio, video, 3D mesh, etc. It allows deep-learning engineers to efficiently process,
+> embed, search, recommend, store, and transfer multimodal data with a Pythonic API.
+
+## Installation and Setup
+
+We need to install `docarray` python package.
+
+<CodeGroup>
+  ```bash pip theme={null}
+  pip install docarray
+  ```
+
+  ```bash uv theme={null}
+  uv add docarray
+  ```
+</CodeGroup>
+
+## Vector Store
+
+LangChain provides an access to the `In-memory` and `HNSW` vector stores from the `DocArray` library.
+
+See a [usage example](/oss/python/integrations/vectorstores/docarray_hnsw).
+
+```python  theme={null}
+from langchain_community.vectorstores import DocArrayHnswSearch
+```
+
+See a [usage example](/oss/python/integrations/vectorstores/docarray_in_memory).
+
+```python  theme={null}
+from langchain_community.vectorstores DocArrayInMemorySearch
+```
+
+## Retriever
+
+See a [usage example](/oss/python/integrations/retrievers/docarray_retriever).
+
+```python  theme={null}
+from langchain_community.retrievers import DocArrayRetriever
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/docarray.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

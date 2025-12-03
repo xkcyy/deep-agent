@@ -1,0 +1,34 @@
+# Notion DB
+
+> [Notion](https://www.notion.so/) is a collaboration platform with modified Markdown support that integrates kanban
+> boards, tasks, wikis and databases. It is an all-in-one workspace for notetaking, knowledge and data management,
+> and project and task management.
+
+## Installation and Setup
+
+All instructions are in examples below.
+
+## Document Loader
+
+We have two different loaders: `NotionDirectoryLoader` and `NotionDBLoader`.
+
+See [usage examples here](/oss/python/integrations/document_loaders/notion).
+
+```python  theme={null}
+from langchain_community.document_loaders import NotionDirectoryLoader, NotionDBLoader
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/notion.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

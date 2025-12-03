@@ -1,0 +1,78 @@
+# Gradient
+
+`Gradient` allows to create [`Embeddings`](https://reference.langchain.com/python/langchain_core/embeddings/#langchain_core.embeddings.embeddings.Embeddings) as well fine tune and get completions on LLMs with a simple web API.
+
+This notebook goes over how to use LangChain with Embeddings of [Gradient](https://gradient.ai/).
+
+## Imports
+
+```python  theme={null}
+from langchain_community.embeddings import GradientEmbeddings
+```
+
+## Set the Environment API Key
+
+Make sure to get your API key from Gradient AI. You are given \$10 in free credits to test and fine-tune different models.
+
+```python  theme={null}
+import os
+from getpass import getpass
+
+if not os.environ.get("GRADIENT_ACCESS_TOKEN", None):
+    # Access token under https://auth.gradient.ai/select-workspace
+    os.environ["GRADIENT_ACCESS_TOKEN"] = getpass("gradient.ai access token:")
+if not os.environ.get("GRADIENT_WORKSPACE_ID", None):
+    # `ID` listed in `$ gradient workspace list`
+    # also displayed after login at at https://auth.gradient.ai/select-workspace
+    os.environ["GRADIENT_WORKSPACE_ID"] = getpass("gradient.ai workspace id:")
+```
+
+Optional: Validate your environment variables `GRADIENT_ACCESS_TOKEN` and `GRADIENT_WORKSPACE_ID` to get currently deployed models. Using the `gradientai` Python package.
+
+```python  theme={null}
+pip install -qU  gradientai
+```
+
+## Create the Gradient instance
+
+```python  theme={null}
+documents = [
+    "Pizza is a dish.",
+    "Paris is the capital of France",
+    "numpy is a lib for linear algebra",
+]
+query = "Where is Paris?"
+```
+
+```python  theme={null}
+embeddings = GradientEmbeddings(model="bge-large")
+
+documents_embedded = embeddings.embed_documents(documents)
+query_result = embeddings.embed_query(query)
+```
+
+```python  theme={null}
+# (demo) compute similarity
+import numpy as np
+
+scores = np.array(documents_embedded) @ np.array(query_result).T
+dict(zip(documents, scores))
+```
+
+```python  theme={null}
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/text_embedding/gradient.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

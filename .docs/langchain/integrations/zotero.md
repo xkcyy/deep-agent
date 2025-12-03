@@ -1,0 +1,32 @@
+# Zotero
+
+[Zotero](https://www.zotero.org/) is an open source reference management system intended for managing bibliographic data and related research materials. You can connect to your personal library, as well as shared group libraries, via the [API](https://www.zotero.org/support/dev/web_api/v3/start). This retriever implementation utilizes [PyZotero](https://github.com/urschrei/pyzotero) to access libraries.
+
+## Installation
+
+```bash  theme={null}
+pip install pyzotero
+```
+
+## Retriever
+
+See a [usage example](/oss/python/integrations/retrievers/zotero).
+
+```python  theme={null}
+from langchain_zotero_retriever.retrievers import ZoteroRetriever
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/zotero.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

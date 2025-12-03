@@ -1,0 +1,66 @@
+# LASER Language-Agnostic SEntence Representations Embeddings by Meta AI
+
+> [LASER](https://github.com/facebookresearch/LASER/) is a Python library developed by the Meta AI Research team and used for creating multilingual sentence embeddings for over 147 languages as of 2/25/2024
+>
+> * List of supported languages at [github.com/facebookresearch/flores/blob/main/flores200/README.md#languages-in-flores-200](https://github.com/facebookresearch/flores/blob/main/flores200/README.md#languages-in-flores-200)
+
+## Dependencies
+
+To use LaserEmbed with LangChain, install the `laser_encoders` Python package.
+
+```python  theme={null}
+pip install laser_encoders
+```
+
+## Imports
+
+```python  theme={null}
+from langchain_community.embeddings.laser import LaserEmbeddings
+```
+
+## Instantiating Laser
+
+### Parameters
+
+* `lang: Optional[str]`
+  > If empty will default
+  > to using a multilingual LASER encoder model (called "laser2").
+  > You can find the list of supported languages and lang\_codes [here](https://github.com/facebookresearch/flores/blob/main/flores200/README.md#languages-in-flores-200)
+  > and [here](https://github.com/facebookresearch/LASER/blob/main/laser_encoders/language_list.py)
+  > .
+
+```python  theme={null}
+# Ex Instantiationz
+embeddings = LaserEmbeddings(lang="eng_Latn")
+```
+
+## Usage
+
+### Generating document embeddings
+
+```python  theme={null}
+document_embeddings = embeddings.embed_documents(
+    ["This is a sentence", "This is some other sentence"]
+)
+```
+
+### Generating query embeddings
+
+```python  theme={null}
+query_embeddings = embeddings.embed_query("This is a query")
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/text_embedding/laser.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

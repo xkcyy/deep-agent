@@ -1,0 +1,54 @@
+# Python REPL
+
+Sometimes, for complex calculations, rather than have an LLM generate the answer directly, it can be better to have the LLM generate code to calculate the answer, and then run that code to get the answer. In order to easily do that, we provide a simple Python REPL to execute commands in.
+
+This interface will only return things that are printed - therefore, if you want to use it to calculate an answer, make sure to have it print out the answer.
+
+<Warning>
+  **Python REPL can execute arbitrary code on the host machine (e.g., delete files, make network requests). Use with caution.**
+</Warning>
+
+```python  theme={null}
+from langchain.tools import Tool
+from langchain_experimental.utilities import PythonREPL
+```
+
+```python  theme={null}
+python_repl = PythonREPL()
+```
+
+```python  theme={null}
+python_repl.run("print(1+1)")
+```
+
+```output  theme={null}
+Python REPL can execute arbitrary code. Use with caution.
+```
+
+```output  theme={null}
+'2\n'
+```
+
+```python  theme={null}
+# You can create the tool to pass to an agent
+repl_tool = Tool(
+    name="python_repl",
+    description="A Python shell. Use this to execute python commands. Input should be a valid python command. If you want to see the output of a value, you should print it out with `print(...)`.",
+    func=python_repl.run,
+)
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/tools/python.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

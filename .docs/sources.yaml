@@ -1,0 +1,31 @@
+# 远程文档源配置
+# 使用 sync_docs.py 脚本同步到本地
+
+sources:
+  # LangGraph Python 官方文档 (Mintlify 站点)
+  - name: langgraph-python
+    type: mintlify
+    base_url: https://docs.langchain.com/oss/python/langgraph
+    target: .docs/langchain/
+    preserve_path: true                    # 保留 URL 路径结构
+    path_prefix: /oss/python/langgraph     # URL 前缀，用于截取相对路径
+    include_patterns:
+      # 仅包含 /oss/python/langgraph/ 路径下的文档
+      - "oss/python/langgraph/*"
+    exclude_patterns:
+      - "*langchain-v1*"
+      - "*changelog*"
+
+  # llms.txt 标准站点 (备选，更完整但需要转换)
+  # - name: langgraph-llms
+  #   type: llms-txt
+  #   url: https://langchain-ai.github.io/langgraph/llms.txt
+  #   target: .docs/langchain/
+
+  # GitHub 仓库 (Raw 文件)
+  # - name: spring-framework
+  #   type: github-raw
+  #   repo: spring-projects/spring-framework
+  #   branch: main
+  #   docs_path: framework-docs/modules/ROOT/pages
+  #   target: .docs/spring/

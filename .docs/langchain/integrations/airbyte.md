@@ -1,0 +1,52 @@
+# Airbyte
+
+> [Airbyte](https://github.com/airbytehq/airbyte) is a data integration platform for ELT pipelines from APIs,
+> databases & files to warehouses & lakes. It has the largest catalog of ELT connectors to data warehouses and databases.
+
+## Installation and Setup
+
+<CodeGroup>
+  ```bash pip theme={null}
+  pip install -U langchain-airbyte
+  ```
+
+  ```bash uv theme={null}
+  uv add langchain-airbyte
+  ```
+</CodeGroup>
+
+<Note>
+  **Currently, the `langchain-airbyte` library does not support Pydantic v2.**
+
+  Please downgrade to Pydantic v1 to use this package.
+
+  This package also currently requires Python 3.10+.
+</Note>
+
+The integration package doesn't require any global environment variables that need to be
+set, but some integrations (e.g. `source-github`) may need credentials passed in.
+
+## Document loader
+
+### AirbyteLoader
+
+See a [usage example](/oss/python/integrations/document_loaders/airbyte).
+
+```python  theme={null}
+from langchain_airbyte import AirbyteLoader
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/airbyte.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

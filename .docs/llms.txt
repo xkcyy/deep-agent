@@ -1,0 +1,5 @@
+# 全局文档索引
+
+| 技术栈 | 路径 | 索引 | 说明 |
+| --- | --- | --- | --- |
+| LangChain | `.docs/langchain/` | `.docs/langchain/llms.txt` | LangChain 文档 |

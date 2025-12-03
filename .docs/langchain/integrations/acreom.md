@@ -1,0 +1,34 @@
+# acreom
+
+[acreom](https://acreom.com) is a dev-first knowledge base with tasks running on local markdown files.
+
+Below is an example on how to load a local acreom vault into LangChain. As the local vault in acreom is a folder of plain text .md files, the loader requires the path to the directory.
+
+Vault files may contain some metadata which is stored as a YAML header. These values will be added to the document’s metadata if `collect_metadata` is set to true.
+
+```python  theme={null}
+from langchain_community.document_loaders import AcreomLoader
+```
+
+```python  theme={null}
+loader = AcreomLoader("<path-to-acreom-vault>", collect_metadata=False)
+```
+
+```python  theme={null}
+docs = loader.load()
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/document_loaders/acreom.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt

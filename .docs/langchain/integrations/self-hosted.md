@@ -1,0 +1,97 @@
+# Self Hosted
+
+Let's load the `SelfHostedEmbeddings`, `SelfHostedHuggingFaceEmbeddings`, and `SelfHostedHuggingFaceInstructEmbeddings` classes.
+
+```python  theme={null}
+import runhouse as rh
+from langchain_community.embeddings import (
+    SelfHostedEmbeddings,
+    SelfHostedHuggingFaceEmbeddings,
+    SelfHostedHuggingFaceInstructEmbeddings,
+)
+```
+
+```python  theme={null}
+# For an on-demand A100 with GCP, Azure, or Lambda
+gpu = rh.cluster(name="rh-a10x", instance_type="A100:1", use_spot=False)
+
+# For an on-demand A10G with AWS (no single A100s on AWS)
+# gpu = rh.cluster(name='rh-a10x', instance_type='g5.2xlarge', provider='aws')
+
+# For an existing cluster
+# gpu = rh.cluster(ips=['<ip of the cluster>'],
+#                  ssh_creds={'ssh_user': '...', 'ssh_private_key':'<path_to_key>'},
+#                  name='my-cluster')
+```
+
+```python  theme={null}
+embeddings = SelfHostedHuggingFaceEmbeddings(hardware=gpu)
+```
+
+```python  theme={null}
+text = "This is a test document."
+```
+
+```python  theme={null}
+query_result = embeddings.embed_query(text)
+```
+
+And similarly for SelfHostedHuggingFaceInstructEmbeddings:
+
+```python  theme={null}
+embeddings = SelfHostedHuggingFaceInstructEmbeddings(hardware=gpu)
+```
+
+Now let's load an embedding model with a custom load function:
+
+```python  theme={null}
+def get_pipeline():
+    from transformers import (
+        AutoModelForCausalLM,
+        AutoTokenizer,
+        pipeline,
+    )
+
+    model_id = "facebook/bart-base"
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    model = AutoModelForCausalLM.from_pretrained(model_id)
+    return pipeline("feature-extraction", model=model, tokenizer=tokenizer)
+
+
+def inference_fn(pipeline, prompt):
+    # Return last hidden state of the model
+    if isinstance(prompt, list):
+        return [emb[0][-1] for emb in pipeline(prompt)]
+    return pipeline(prompt)[0][-1]
+```
+
+```python  theme={null}
+embeddings = SelfHostedEmbeddings(
+    model_load_fn=get_pipeline,
+    hardware=gpu,
+    model_reqs=["./", "torch", "transformers"],
+    inference_fn=inference_fn,
+)
+```
+
+```python  theme={null}
+query_result = embeddings.embed_query(text)
+```
+
+```python  theme={null}
+```
+
+***
+
+<Callout icon="pen-to-square" iconType="regular">
+  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/text_embedding/self-hosted.mdx)
+</Callout>
+
+<Tip icon="terminal" iconType="regular">
+  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Tip>
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.langchain.com/llms.txt
