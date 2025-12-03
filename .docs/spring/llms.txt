@@ -1,9 +1,0 @@
-# Spring Framework Documentation
-
-> Java 后端框架文档
-
-# Guides
-- [Spring Boot 快速开始](guides/boot-starter.md): Spring Boot 项目搭建
-
-# References
-- [事务管理](references/transaction.md): 事务传播机制与配置
