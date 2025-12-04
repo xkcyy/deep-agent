@@ -70,3 +70,7 @@ lerna-debug.log*
 
 # Claude
 .claude/settings.local.json
+
+# LangGraph
+.langgraph_api/
+*.pckl
