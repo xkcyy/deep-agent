@@ -4,11 +4,11 @@
 param(
     [switch]$Json,
     [string]$ShortName,
+    [Parameter(ValueFromRemainingArguments = $true, Position = 0, Mandatory = $true)]
+    [string[]]$EpicDescription,
     [int]$Number = 0,
     [switch]$Help,
-    [switch]$CreateBranch,
-    [Parameter(ValueFromRemainingArguments = $true)]
-    [string[]]$EpicDescription
+    [switch]$CreateBranch
 )
 $ErrorActionPreference = 'Stop'
 
