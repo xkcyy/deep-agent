@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>13 工具调用与界面展示 - HTML 原型</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #181b20;
+      --muted: #8b94a7;
+      --text: #e9ecf5;
+      --accent: #5aa9ff;
+      --green: #3ccf91;
+      --red: #ff5f6d;
+      --orange: #ffb347;
+      --border: #242833;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: radial-gradient(circle at 20% 20%, rgba(90,169,255,0.04), transparent 25%), var(--bg);
+      color: var(--text);
+    }
+    h1, h2, h3 { margin: 0 0 8px 0; font-weight: 600; }
+    p { margin: 4px 0; color: var(--muted); }
+    .message {
+      max-width: 960px;
+      margin: 0 auto 16px auto;
+      padding: 16px;
+      background: linear-gradient(135deg, rgba(36,40,51,0.85), rgba(24,27,32,0.85));
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+    }
+    .tool-card {
+      margin-top: 12px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .tool-card.borderless {
+      border: none;
+      background: transparent;
+    }
+    .status-bar {
+      height: 4px;
+      width: 100%;
+    }
+    .pending { background: linear-gradient(90deg, rgba(90,169,255,0.1), rgba(90,169,255,0.6)); animation: pulse 1.2s linear infinite; }
+    .completed { background: var(--green); }
+    .error { background: var(--red); }
+    .interrupted { background: var(--orange); }
+    @keyframes pulse {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+    .card-body {
+      padding: 12px 14px 14px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .summary {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text);
+    }
+    .pill {
+      font-size: 12px;
+      color: var(--muted);
+      padding: 2px 8px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+    }
+    .inline-summary {
+      padding: 8px 10px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.04);
+      border: 1px dashed var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+    }
+    details {
+      border-radius: 8px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      color: var(--text);
+    }
+    details > summary {
+      cursor: pointer;
+      list-style: none;
+      outline: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    details > summary::-webkit-details-marker { display: none; }
+    .scroll-box {
+      max-height: 220px;
+      overflow-y: auto;
+      padding-right: 4px;
+      margin-top: 8px;
+    }
+    .source-list details {
+      margin-top: 8px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.02);
+    }
+    .logo {
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.08);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: var(--text);
+    }
+    .item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      padding: 8px 0;
+      border-bottom: 1px dashed var(--border);
+    }
+    .item:last-child { border-bottom: none; }
+    .item a { color: var(--accent); text-decoration: none; font-size: 13px; }
+    .item .meta { color: var(--muted); font-size: 12px; }
+    .tag {
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 6px;
+      background: rgba(90,169,255,0.12);
+      color: #cfe5ff;
+      border: 1px solid rgba(90,169,255,0.25);
+    }
+    code.block {
+      display: block;
+      background: #0d1016;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      color: #cfe5ff;
+      font-size: 12px;
+      overflow-x: auto;
+      max-height: 200px;
+    }
+    .flex-between { display: flex; justify-content: space-between; align-items: center; }
+  </style>
+</head>
+<body>
+  <div class="message">
+    <h2>示例消息 · 工具调用展示</h2>
+    <p>包含搜索卡片（无外边框二级折叠）、文件读写、目录、待办与兜底示例。</p>
+
+    <!-- 搜索：无边框容器 + 二级折叠 -->
+    <div class="tool-card borderless">
+      <div class="status-bar completed"></div>
+      <div class="card-body">
+        <div class="summary">
+          <span class="pill">搜索 · 完成</span>
+          <span>“设备告警 F42” · 3 个来源</span>
+        </div>
+        <div class="scroll-box source-list">
+          <details open>
+            <summary><span class="logo">G</span><span>Search · 官网</span></summary>
+            <div class="scroll-box">
+              <div class="item">
+                <a href="#">告警 F42 处理手册 - 官方</a>
+                <div class="meta">摘要：步骤 1/2/3；含接线图与复位条件。</div>
+              </div>
+              <div class="item">
+                <a href="#">固件更新说明</a>
+                <div class="meta">摘要：需在 2024.09 之后版本应用补丁。</div>
+              </div>
+            </div>
+          </details>
+          <details>
+            <summary><span class="logo">B</span><span>Docs · 内部知识库</span></summary>
+            <div class="scroll-box">
+              <div class="item">
+                <a href="#">F42 常见误报排查</a>
+                <div class="meta">摘要：传感器积尘、线缆松动、自检失败。</div>
+              </div>
+            </div>
+          </details>
+          <details>
+            <summary><span class="logo">S</span><span>Support · 工单</span></summary>
+            <div class="scroll-box">
+              <div class="item">
+                <a href="#">工单 #8921</a>
+                <div class="meta">摘要：更换继电器后恢复，记录备件型号。</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+
+    <!-- 文件读/写/编辑 -->
+    <div class="tool-card">
+      <div class="status-bar pending"></div>
+      <div class="card-body">
+        <div class="summary">
+          <span class="pill">写文件 · 调用中</span>
+          <span>/workspace/config.yaml · 12 行变更</span>
+        </div>
+        <details open>
+          <summary>查看参数与预览</summary>
+          <div class="scroll-box">
+            <code class="block">diff --git a/config.yaml b/config.yaml
+@@
+ timeout: 10s
+-retry: 1
++retry: 3
++log_level: info
+            </code>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <!-- 目录 -->
+    <div class="tool-card">
+      <div class="status-bar interrupted"></div>
+      <div class="card-body">
+        <div class="summary">
+          <span class="pill">目录 · 已中断</span>
+          <span>/logs/runtime · 15 项</span>
+        </div>
+        <details>
+          <summary>查看目录项</summary>
+          <div class="scroll-box">
+            <div class="item"><strong>2024-12-01.log</strong> <span class="meta">12 KB · 文件</span></div>
+            <div class="item"><strong>error/</strong> <span class="meta">目录</span></div>
+            <div class="item"><strong>metrics.json</strong> <span class="meta">8 KB · 文件</span></div>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <!-- 待办 -->
+    <div class="tool-card">
+      <div class="status-bar completed"></div>
+      <div class="card-body">
+        <div class="summary">
+          <span class="pill">待办 · 完成</span>
+          <span>3 / 4 已完成</span>
+        </div>
+        <details>
+          <summary>查看待办</summary>
+          <div class="scroll-box">
+            <div class="item"><strong>[✓] 检查 F42 传感器接头</strong><div class="meta">已完成</div></div>
+            <div class="item"><strong>[✓] 更新固件补丁</strong><div class="meta">已完成</div></div>
+            <div class="item"><strong>[ ] 记录备件型号</strong><div class="meta">待完成</div></div>
+            <div class="item"><strong>[✓] 复测告警自检</strong><div class="meta">已完成</div></div>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <!-- 兜底 -->
+    <div class="tool-card">
+      <div class="status-bar error"></div>
+      <div class="card-body">
+        <div class="summary">
+          <span class="pill">工具调用 · 失败</span>
+          <span>通用摘要：提取参数失败</span>
+        </div>
+        <details>
+          <summary>查看参数与结果</summary>
+          <div class="scroll-box">
+            <p class="inline-summary"><span class="tag">参数</span> {"query":"unknown", "limit":10}</p>
+            <p class="inline-summary"><span class="tag">错误</span> JSON 解析失败，已回退纯文本。</p>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <!-- 轻量文本示例（不使用卡片） -->
+    <p class="inline-summary">
+      <span class="tag">轻量工具</span>
+      内联摘要示例：纯文本结果直接呈现，不使用卡片。
+    </p>
+  </div>
+</body>
+</html>
+
+
